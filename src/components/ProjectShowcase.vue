@@ -1,17 +1,17 @@
 <template>
   <section class="projects-panel">
     <div class="projects-panel__inner-container">
-      <ProjectShowcaseHeader  v-scroll-reveal.reset  />
-      <Gluco  v-scroll-reveal.reset  />
-      <Memories  v-scroll-reveal.reset  />
-      <Hoptical  v-scroll-reveal.reset  />
-      <ImageIdentifier  v-scroll-reveal.reset />
-      <DataDashboard  v-scroll-reveal.reset  />
-      <BloodSugarAppMagik  v-scroll-reveal.reset  />
-      <GeolocationWeatherApp  v-scroll-reveal.reset  />
-      <HackbustersGame  v-scroll-reveal.reset />  
+      <ProjectShowcaseHeader  />
+      <Gluco  />
+      <Memories  />
+      <Hoptical  />
+      <ImageIdentifier />
+      <DataDashboard  />
+      <BloodSugarAppMagik  />
+      <GeolocationWeatherApp  />
+      <HackbustersGame />  
       
-      <div class="projects__screens"  v-scroll-reveal.reset >
+      <div class="projects__screens" >
         <div class="projects__screen">
           <InconnectCables />
         </div>

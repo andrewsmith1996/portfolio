@@ -4,12 +4,12 @@
       <body>
         <Header />
           <div class="gradient-wrapper">
-            <AboutPanel v-scroll-reveal.reset />
+            <AboutPanel />
             <ProjectShowcase />
-            <Skills v-scroll-reveal.reset />
-            <Education v-scroll-reveal.reset />
-            <Projects v-scroll-reveal.reset />
-            <Contact v-scroll-reveal.reset /> 
+            <Skills />
+            <Education />
+            <Projects />
+            <Contact /> 
           </div>
         <Footer />
       </body>
