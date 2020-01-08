@@ -40,6 +40,5 @@ import ProjectShowcase from '~/components/ProjectShowcase.vue';
   }
 })
 export default class Index extends Vue {
-
 }
 </script>

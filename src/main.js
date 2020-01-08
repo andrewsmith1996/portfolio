@@ -17,8 +17,6 @@ export default function (Vue, { router, head, isClient, appOptions } ) {
 
   appOptions.store = store;
 
-  head.title = "Portfolio | Andrew Smith - Web Developer";
-
   head.meta.push({
     name: 'keywords',
     content:'Andrew Smith,Andrew Smith Developer,Web Developer,Web Developer Nottingham,Web Developer,Cross Platform Developer,Mobile App Developer,award winning'
