@@ -1,12 +1,12 @@
 <template>
   <section class="technologies">
-      <g-image background="white" fit="contain" width="125" height="125" src="~/assets/images/technologies/mongodb.png" alt="MongoDB Logo" />
-      <g-image background="white" fit="contain" width="125" height="125" src="~/assets/images/technologies/react.png" alt="react.js Logo" />
-      <g-image fit="contain" width="125" height="125" src="~/assets/images/technologies/ionic.png" alt="Ionic Logo" />
-      <g-image fit="contain" width="125" height="125" src="~/assets/images/technologies/vue.png" alt="Vue.js Logo" />
-      <g-image fit="contain" width="125" height="125" src="~/assets/images/technologies/typescript.png" alt="Typescript Logo" />
-      <g-image fit="cover" width="125" height="125" src="~/assets/images/technologies/node.png" alt="Node.js Logo" />
-      <g-image fit="contain" width="125" height="125" src="~/assets/images/technologies/js.png" alt="JavaScript Logo" />
+      <g-image :immediate="true" background="white" fit="contain" width="125" height="125" src="~/assets/images/technologies/mongodb.png" alt="MongoDB Logo" />
+      <g-image :immediate="true" background="white" fit="contain" width="125" height="125" src="~/assets/images/technologies/react.png" alt="react.js Logo" />
+      <g-image :immediate="true" fit="contain" width="125" height="125" src="~/assets/images/technologies/ionic.png" alt="Ionic Logo" />
+      <g-image :immediate="true" fit="contain" width="125" height="125" src="~/assets/images/technologies/vue.png" alt="Vue.js Logo" />
+      <g-image :immediate="true" fit="contain" width="125" height="125" src="~/assets/images/technologies/typescript.png" alt="Typescript Logo" />
+      <g-image :immediate="true" fit="cover" width="125" height="125" src="~/assets/images/technologies/node.png" alt="Node.js Logo" />
+      <g-image :immediate="true" fit="contain" width="125" height="125" src="~/assets/images/technologies/js.png" alt="JavaScript Logo" />
   </section>
 </template>
 
