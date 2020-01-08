@@ -5,8 +5,6 @@ import DefaultLayout from '~/layouts/Default.vue'
 import Vuex from 'vuex'
 import store from "./store";
 import '~/assets/styles.scss'
-import { VueperSlides, VueperSlide } from 'vueperslides';
-import 'vueperslides/dist/vueperslides.css'
 
 export default function (Vue, { router, head, isClient, appOptions } ) {
   // Set default layout as a global component
@@ -16,8 +14,6 @@ export default function (Vue, { router, head, isClient, appOptions } ) {
   if (process.isClient) {
     const ScrollReveal = require('vue-scroll-reveal').default;
     Vue.use(ScrollReveal);
-    Vue.prototype.$VuperSlides = VueperSlides
-    Vue.prototype.$VueperSlide = VueperSlide
 }
 
   appOptions.store = store;
