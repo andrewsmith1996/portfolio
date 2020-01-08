@@ -49,10 +49,19 @@ import 'vueperslides/dist/vueperslides.css'
         import ('vueperslides')
         .then(m => m.VueperSlide)
         .catch()
-    },
+    }
 })
 export default class BlogPreview extends Vue {
-
+  mounted() {
+      VueperSlides: () =>
+        import ('vueperslides')
+        .then(m => m.VueperSlides)
+        .catch();
+      VueperSlide: () =>
+        import ('vueperslides')
+        .then(m => m.VueperSlide)
+        .catch();
+  }
 }
 </script>
 
