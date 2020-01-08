@@ -6,8 +6,7 @@
 
 module.exports = {
   siteName: 'Gridsome',
-  siteUrl: 'https://andrewsmithdeveloper.com',
-  pathPrefix: '/portfolio-source',
+  siteUrl: 'https://andrewsmith1996.github.io',
   plugins: [{
     use: 'gridsome-plugin-typescript'
   }]
