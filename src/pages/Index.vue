@@ -1,9 +1,6 @@
 <template>
   <!DOCTYPE HTML>
     <html lang="en">
-    <head>
-      <title>Portfolio | Andrew Smith - Web Developer</title>
-    </head>
       <body>
         <Header />
           <div class="gradient-wrapper">
