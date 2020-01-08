@@ -8,7 +8,23 @@
 
 
 module.exports = function (api) {
-  api.loadSource(({ addCollection }) => {
+  api.loadSource(async actions => {
+    const axios = require("axios");
+    const moment = require("moment");
+    const collection = actions.addCollection('BlogPosts')
+    try {
+      let response = await axios.get('https://public-api.wordpress.com/rest/v1.1/sites/117679029/posts/');
+      response.data.posts.forEach(post => {
+        collection.addNode({
+          title: post.title,
+          url: post.URL,
+          intro: post.excerpt,
+          postDate: moment(post.date).format('MMMM Do YYYY, h:mma')
+        });
+      });
+    } catch (e) {
+      console.log(e);
+    }
   })
 
   api.createPages(({ createPage }) => {
