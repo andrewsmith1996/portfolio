@@ -3,18 +3,20 @@
   <div class="contact__blog">
     <h2 class="contact__blog-preview__top-title">Latest from my blog</h2>
     <a href="https://thisdeveloperslife.wordpress.com/" target="_blank" class="contact__blog-preview__url">thisdeveloperslife.wordpress.com</a>
-    <vueper-slides v-if="$static.allBlogPosts.edges" :bullets="false" :visible-slides="2" slide-multiple :gap="3" :dragging-distance="200">
-      <vueper-slide v-for="(post, index) in $static.allBlogPosts.edges" :key="index" class="contact__blog-preview">
-         <template v-slot:content>
-          <article>
-            <h4 class="contact__blog-preview__title"><strong><a :href=post.node.url v-html="post.node.title"></a></strong></h4>
-            <span>Posted on {{ post.node.PostDate }}</span>
-            <p class="contact__blog-preview__content" v-html="post.node.intro"></p>
-            <a :href="post.node.url" target="_blank">read more</a>
-          </article>
-         </template>
-      </vueper-slide>
-     </vueper-slides>
+    <ClientOnly>
+      <vueper-slides v-if="$static.allBlogPosts.edges" :bullets="false" :visible-slides="2" slide-multiple :gap="3" :dragging-distance="200">
+        <vueper-slide v-for="(post, index) in $static.allBlogPosts.edges" :key="index" class="contact__blog-preview">
+          <template v-slot:content>
+            <article>
+              <h4 class="contact__blog-preview__title"><strong><a :href=post.node.url v-html="post.node.title"></a></strong></h4>
+              <span>Posted on {{ post.node.PostDate }}</span>
+              <p class="contact__blog-preview__content" v-html="post.node.intro"></p>
+              <a :href="post.node.url" target="_blank">read more</a>
+            </article>
+          </template>
+        </vueper-slide>
+      </vueper-slides>
+    </ClientOnly>
   </div>
 </template>
 
