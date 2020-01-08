@@ -34,9 +34,13 @@ import 'vueperslides/dist/vueperslides.css'
 export default class BlogPreview extends Vue {
   blogPosts: Array<BlogPost> = [];
   async mounted() {
+    console.log(1);
      try {
+       console.log(2);
         let response = await axios.get('https://public-api.wordpress.com/rest/v1.1/sites/117679029/posts/');
+        console.log('doing call')
         this.blogPosts = response.data.posts.map((post: any): BlogPost => {
+          console.log(response.data.data)
           return {
             title: post.title,
             url: post.URL,
