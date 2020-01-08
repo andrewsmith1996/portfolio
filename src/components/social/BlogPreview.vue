@@ -3,7 +3,6 @@
   <div class="contact__blog">
     <h2 class="contact__blog-preview__top-title">Latest from my blog</h2>
     <a href="https://thisdeveloperslife.wordpress.com/" target="_blank" class="contact__blog-preview__url">thisdeveloperslife.wordpress.com</a>
-      <ClientOnly>
       <vueper-slides v-if="$static.allBlogPosts.edges" :bullets="false" :visible-slides="2" slide-multiple :gap="3" :dragging-distance="200">
         <vueper-slide v-for="(post, index) in $static.allBlogPosts.edges" :key="index" class="contact__blog-preview">
           <template v-slot:content>
@@ -16,7 +15,6 @@
           </template>
         </vueper-slide>
       </vueper-slides>
-      </ClientOnly>
   </div>
 </template>
 
