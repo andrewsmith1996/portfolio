@@ -4,11 +4,9 @@ node_js:
 branches:
   only:
     - master
+before-script: 
+  - npm install -g firebase-tools
 script:
   - npm install
   - npm run build
-  - ls
-deploy:
-  provider: firebase
-  token:  
-    secure: "AzGe4TYOEwIvC3fkLi3e4QXBqiJ1x6LaThz/U4m3G31dnFy0k6vtTqIazNQxcs8fRx3YziSojh0WZM/gyjowNUsTwDhHfnbqHQPT4+DXZI0vX2NI1IJZXRSuUT1Bygj3E2yQcJeDG/7+myG7oZ/qhBVM1kkEL9QUEcHB2D8se1NixAStgufvfZxF5b0p13bk/vY/i1rDGq2kT/rdil8x23qfcotqMp67If8m0Ep5FqL52x2z388kBSzp685p407Vj1KFaOO31F0Tjby7j8fyPzG069FA0bxtc19BxKIxML2oGVlExO6ydgg9Sz9DFvBWA5t92qoPJqKN2jyA2fqmTL4hoe5cOXZaTReBlTfABY5LKbxEJJ2F8d0wHwOFFzFKgoRK1ekmytFiVSHz7QVYHPCW9GPeF5kI75YYX2e7aoDhnts08U8WcpBQiRc6kiJ4rwK51x+RnSiPJwgOYes4XtF1Vku5KXQ8ZZ+q52+nrPRuyMy3pvvhlZMfw55ZkzZRCUS3kok8DIhH87WyA8Yj/EfAMko+Y1FK2hCCXBp9ZG8K/Iz8dwpGBq/SftHOj8Hk9OcZ9OdRYV7XhT3hKnLY6RnfXPSS/oa5J10majR6Zk3ohlcDMNf0B++tKbpB5VEhSszEovJvl01TXrMioYTCWlc0RMmjFJAp49UJZpYcBqI="
+  - firebase deploy --only hosting --project portfolio-ec01a --non-interactive --token=$FIREBASE_TOKEN -m "Github deploy"
