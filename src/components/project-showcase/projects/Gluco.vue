@@ -16,16 +16,16 @@
         </p>
       </div>
       <div class="project__simple-screenshots">
-        <g-image src="~/assets/images/apps/gluco_one.png" width="263" class="project__simple-screenshot" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />  
-        <g-image src="~/assets/images/apps/gluco_two.png" width="263" class="project__simple-screenshot" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" /> 
+        <g-image :immediate="true" src="~/assets/images/apps/gluco_one.png" width="263" class="project__simple-screenshot" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />  
+        <g-image :immediate="true" src="~/assets/images/apps/gluco_two.png" width="263" class="project__simple-screenshot" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" /> 
       </div>
     </div>
     <div class="project__simple--full-row">
       <div class="project__simple-screenshots--row">
-        <g-image src="~/assets/images/apps/gluco_four.png" width="263" class="project__simple-screenshot" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />
-        <g-image src="~/assets/images/apps/gluco_three.png" width="263" class="project__simple-screenshot" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />
-        <g-image src="~/assets/images/apps/gluco_five.png" width="263" class="project__simple-screenshot" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />
-        <g-image src="~/assets/images/apps/gluco_six.png" width="263" class="project__simple-screenshot" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />
+        <g-image :immediate="true" src="~/assets/images/apps/gluco_four.png" width="263" class="project__simple-screenshot" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />
+        <g-image :immediate="true" src="~/assets/images/apps/gluco_three.png" width="263" class="project__simple-screenshot" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />
+        <g-image :immediate="true" src="~/assets/images/apps/gluco_five.png" width="263" class="project__simple-screenshot" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />
+        <g-image :immediate="true" src="~/assets/images/apps/gluco_six.png" width="263" class="project__simple-screenshot" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />
       </div>
     </div>
   </div>

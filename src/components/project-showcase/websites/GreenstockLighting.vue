@@ -1,7 +1,7 @@
 <template>
   <div class="project-screen">
       <a href="https://www.greenstocklighting..co.uk/" target="_blank" class="project-screen__link">
-        <g-image src="~/assets/images/websites/greenstock-lighting.png" width="555" alt="Greenstock Lighting - Built at Cursor" />
+        <g-image :immediate="true" src="~/assets/images/websites/greenstock-lighting.png" width="555" alt="Greenstock Lighting - Built at Cursor" />
       </a>
       <h5 class="project-screen__title">Greenstock Lighting</h5>
       <p class="project-screen__caption">HTML, CSS, JavaScript, CraftCMS based on provided designs<br>Built on placement at <a href="https://cursor.co.uk" target="_blank">Cursor</a></p>

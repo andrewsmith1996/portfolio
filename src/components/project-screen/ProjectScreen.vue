@@ -2,7 +2,7 @@
 <template>
   <div class="project-screen">
     <a :href="link" target="_blank" class="project-screen__link">
-      <g-image :src="image" width="555" :alt="alt" />
+      <g-image :immediate="true" :src="image" width="555" :alt="alt" />
   </a>
   <p class="project-screen__caption" v-html="caption"></p>
   </div>

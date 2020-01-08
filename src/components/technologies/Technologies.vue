@@ -1,4 +1,4 @@
-<template>
+ git push --set-upstream origin master<template>
   <section class="technologies">
       <g-image :immediate="true" background="white" fit="contain" width="125" height="125" src="~/assets/images/technologies/mongodb.png" alt="MongoDB Logo" />
       <g-image :immediate="true" background="white" fit="contain" width="125" height="125" src="~/assets/images/technologies/react.png" alt="react.js Logo" />
