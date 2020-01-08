@@ -37,8 +37,6 @@ query {
 
 <script lang="ts">
 import { Component, Vue, Prop, Mixins } from "vue-property-decorator";
-import { VueperSlides, VueperSlide } from 'vueperslides';
-
 import 'vueperslides/dist/vueperslides.css'
 
 @Component({
