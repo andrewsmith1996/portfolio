@@ -145,12 +145,17 @@ p, li {
 		flex-basis: 100%;
 		flex: 1;		
 		flex-wrap: wrap;
-
+		
 		.circle{ 
 			display: flex;
+			flex-wrap: wrap;
 			@media only screen and (min-width: 960px) {
 				@include on-circle($item-count: 8, $circle-size: 17em, $item-size: 4em); 
 				flex-direction: row;
+			}
+
+			@media only screen and (max-width: 768px) {
+				justify-content: center;
 			}
 		}
 
@@ -357,6 +362,14 @@ p, li {
 
 			@media only screen and (max-width: 768px) {
 				margin-bottom:25px;
+
+				&--large,
+				&--small,
+				&--half,
+				&--two-thirds,
+				&--one-third {
+					width:100%;
+				}
 			}
 		}	
 
@@ -388,7 +401,6 @@ p, li {
 			object-fit: contain;
 			@media only screen and (max-width: 768px) {
 				margin-bottom:25px;
-				width:80%;
 			}
 
 			&--full {
@@ -405,6 +417,14 @@ p, li {
 
 			&--third {
 				width:30%;
+			}
+
+			&--quarter,
+			&--half,
+			&--third {
+				@media only screen and (max-width: 768px) {
+					width:65%;
+				}
 			}
 
 			@include transition();
@@ -540,6 +560,7 @@ p, li {
 		margin-bottom:25px;
 		@media only screen and (max-width: 768px) {
 			flex-direction: column;
+			align-items: center;
 		}
 	}
 
@@ -829,6 +850,9 @@ p, li {
 	flex-wrap: wrap;
 	margin-left:-7px; // Inverse of below margin
 	@include transition();
+	@media only screen and (max-width: 768px) {
+		justify-content: center;
+	}
 	img { 
 		display: block; 
 		max-width: 100%; 
