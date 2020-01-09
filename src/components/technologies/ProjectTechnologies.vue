@@ -1,9 +1,9 @@
 <template>
   <section class="project__technologies-icons">
       <img v-if="technologies.includes('node')" src="../../assets/images/technologies/node.png" alt="Node.js Logo" />
+      <img v-if="technologies.includes('typescript')" src="../../assets/images/technologies/typescript.png" alt="Typescript Logo" />
       <img v-if="technologies.includes('express')" src="../../assets/images/technologies/express.png" alt="Express Logo" />
       <img v-if="technologies.includes('ionic')" src="../../assets/images/technologies/ionic.png" alt="Ionic Logo" />
-      <img v-if="technologies.includes('typescript')" src="../../assets/images/technologies/typescript.png" alt="Typescript Logo" />
       <img v-if="technologies.includes('angular')" src="../../assets/images/technologies/angular.png" alt="Angular Logo" />
       <img v-if="technologies.includes('vue')" src="../../assets/images/technologies/vue.png" alt="Vue.js Logo" />
       <img v-if="technologies.includes('react')" src="../../assets/images/technologies/react.png" alt="react.js Logo" />

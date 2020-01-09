@@ -10,6 +10,7 @@
               <li><span></span>Socket.io</li>
               <li><span></span>MongoDB</li>
               <li><span></span>Google Firebase, Google Cloud</li>
+              <li><span></span>Travis CI/CD</li>
               <li><span></span>PHP, SQL, mySQL</li>
               <li><span></span>C++</li>
               <li><span></span>C#</li>
