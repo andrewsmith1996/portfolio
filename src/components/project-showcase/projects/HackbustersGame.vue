@@ -1,7 +1,12 @@
 <template>
  <div class="project__simple">
     <div class="project__simple-content project__simple-content--half">
+      <div class="project__simple-header">
       <h3 class="project__title">Hackbusters - Lincoln Hack 2018</h3>
+          <a href="https://github.com/andrewsmith1996/HackBusters-Lincoln-Hack-2018" target="_blank">
+            <img src="../../../assets/images/icons/github.png">
+            </a>
+        </div>
       <h6 class="project__technologies">Socket.IO, Node.js, Express</h6>
       <p class="project__description">My entry for <a href="https://2018.lincolnhack.org/" target="_blank">Lincoln Hack</a> - a Dambusters, RAF &amp; Lincoln themed game using web sockets to make it playable across multiple phones positioned next to each other in a row.
       <br><br>This game involved keeping a plane in the air and once it came to end of one phone screen it would move to the next phone’s screen and so forth, with the goal of making the game playable across 20+ phones. 

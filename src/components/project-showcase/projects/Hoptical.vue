@@ -1,7 +1,12 @@
 <template>
    <div class="project__simple">
         <div class="project__simple-content project__simple-content--small">
+            <div class="project__simple-header">
             <h3 class="project__title">Hoptical</h3>
+          <a href="https://github.com/andrewsmith1996/hoptical-android-app" target="_blank">
+            <img src="../../../assets/images/icons/github.png">
+            </a>
+        </div>
             <h6 class="project__technologies">Android, Java, Firebase</h6>
             <p class="project__description">Craft Beer tracker Android application showcasing a range of advanced Android concepts such as:</p>
             <ul class="project__features-list">

@@ -5,7 +5,12 @@
 <template>
   <div class="project__simple">
     <div class="project__simple-content project__simple-content--small">
+      <div class="project__simple-header">
       <h3 class="project__title">Memories</h3>
+          <a href="https://github.com/andrewsmith1996/memories-ionic-app" target="_blank">
+            <img src="../../../assets/images/icons/github.png">
+            </a>
+        </div>
       <h6 class="project__technologies">Ionic 4, Angular, Firebase</h6>
       <p class="project__description">Diary and journaling application for capturing and collecting social experiences.<br>Share, scan and collect friends’ memories with QR codes to build memory diaries together.</p>
       <ul class="project__features-list">

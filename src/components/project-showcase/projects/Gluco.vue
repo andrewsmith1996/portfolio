@@ -5,7 +5,12 @@
   <div>
     <div class="project__simple">
       <div class="project__simple-content project__simple-content--half">
-        <h3 class="project__title">Gluco - AI &amp; Machine Learning</h3>
+        <div class="project__simple-header">
+          <h3 class="project__title">Gluco - AI &amp; Machine Learning</h3>
+          <a href="https://github.com/andrewsmith1996/gluco-api-node" target="_blank">
+            <img src="../../../assets/images/icons/github.png">
+            </a>
+        </div>
         <h6 class="project__technologies">Ionic 3, Node.js, MongoDB, Express, Angular</h6>
         <p class="project__description">
             Final Year Project for BSc (Hons) Computer Science entitled <em>"Using Artificial Intelligence and Machine Learning to improve the Glycaemic Control of Insulin Dependent Diabetics"</em> - (awarded 100%)

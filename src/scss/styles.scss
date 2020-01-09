@@ -314,6 +314,19 @@ p, li {
 			flex-direction: column;
 		}
 
+		&-header{ 
+			display:flex;
+			align-items: center;
+			
+			a {
+				margin-left:10px;
+			}
+			
+			img {
+				width:35px;
+			}
+		}
+
 		&-content {
 			display:flex;
 			flex-direction: column;

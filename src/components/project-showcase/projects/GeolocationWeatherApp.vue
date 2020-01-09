@@ -1,7 +1,12 @@
 <template>
  <div class="project__simple">
     <div class="project__simple-content project__simple-content--half">
+         <div class="project__simple-header">
         <h3 class="project__title">Geolocation Weather Forecast</h3>
+          <a href="https://github.com/andrewsmith1996/geolocationWeatherReactNative" target="_blank">
+            <img src="../../../assets/images/icons/github.png">
+            </a>
+        </div>
         <h6 class="project__technologies">React Native</h6>
         <p class="project__description">A simple React Native app that uses the Geolocation functionality of a mobile phone and a WeatherAPI to retrieve a user's current location and return a 5 day weather forecast for that location. 
         <br><br>I published a full guide on how to build this app <a href="https://dev.to/andrewsmith1996/how-to-build-an-geolocation-weather-forecast-app-in-react-native-in-30-minutes-1kmo" target="_blank">here</a> as part of a "Let's Build" series of tutorials.
