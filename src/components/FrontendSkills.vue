@@ -5,10 +5,11 @@
         <div class="skills__skills-content">
             <h3 class="skills__list-title">Front-end development</h3>
             <ul class="skills__list">
-                <li><span></span>ReactJS, Vue.js, TypeScript</li>
-                <li><span></span>HTML, CSS, LESS, Bootstrap</li>
+                <li><span></span>ReactJS, Vue.js, Angular</li>
+                <li><span></span>TypeScript</li>
+                <li><span></span>HTML, CSS, LESS, SASS</li>
                 <li><span></span>Ionic Framework, React Native</li>
-                <li><span></span>SASS, Flexbox</li>
+                <li><span></span>Bootstrap, Flexbox</li>
                 <li><span></span>JQuery, AJAX</li>
                 <li><span></span>Android Development (Java)</li>
             </ul>

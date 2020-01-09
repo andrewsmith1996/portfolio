@@ -1,6 +1,6 @@
 <template>
  <div class="project__simple">
-    <div class="project__simple-content">
+    <div class="project__simple-content project__simple-content--half">
         <h3 class="project__title">Geolocation Weather Forecast</h3>
         <h6 class="project__technologies">React Native</h6>
         <p class="project__description">A simple React Native app that uses the Geolocation functionality of a mobile phone and a WeatherAPI to retrieve a user's current location and return a 5 day weather forecast for that location. 
@@ -8,18 +8,24 @@
         <br><br>This guide was also a featured article in Tech Nottingham's October newsletter.
         <br><br><a href="https://github.com/andrewsmith1996/geolocationWeatherReactNative" target="_blank">View on GitHub</a>
         </p>
+        <ProjectTecnologies :technologies="['react', 'react-native']" />
     </div>
-    <div class="project__simple-screenshots">
-        <img :immediate="true" src="../../../assets/images/apps/geolocation-one.png" width="263" class="project__simple-screenshot" alt="React Native Geolocation Weather Forecast app" />
-        <img :immediate="true" src="../../../assets/images/apps/geolocation-two.png" width="263" class="project__simple-screenshot" alt="React Native Geolocation Weather Forecast app" />
+    <div class="project__simple-screenshots project__simple-content--half">
+        <img src="../../../assets/images/apps/geolocation-one.png" class="project__simple-screenshot project__simple-screenshot--half" alt="React Native Geolocation Weather Forecast app" />
+        <img src="../../../assets/images/apps/geolocation-two.png" class="project__simple-screenshot project__simple-screenshot--half" alt="React Native Geolocation Weather Forecast app" />
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue, Prop, Mixins } from "vue-property-decorator";
+import ProjectTecnologies from "../../technologies/ProjectTechnologies.vue";
 
-@Component
+@Component({
+  components: {
+    ProjectTecnologies
+  }
+})
 export default class GeolocationWeatherApp extends Vue {
 
 }

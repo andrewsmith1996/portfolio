@@ -4,7 +4,7 @@
 
 <template>
   <div class="project__simple">
-    <div class="project__simple-content">
+    <div class="project__simple-content project__simple-content--small">
         <h3 class="project__title">Image Identifier </h3>
         <h6 class="project__technologies">React Native</h6>
         <p class="project__description">A React Native app that uses AI and a number of React Native components to identify what's in an image taken by a user.
@@ -12,20 +12,26 @@
             <br><br>This guide was also a featured article in Tech Nottingham's September newsletter.
             <br><br><a href="https://github.com/andrewsmith1996/Image-Recogition-React-Native" target="_blank"> View on GitHub</a>
         </p>
+         <ProjectTecnologies :technologies="['react', 'react-native']" />
     </div>
 
-    <div class="project__simple-screenshots">
-        <img :immediate="true" src="../../../assets/images/apps/image-recognition-react-native-1.png" width="263" class="project__simple-screenshot" alt="React Native image recognition app" />
-        <img :immediate="true" src="../../../assets/images/apps/image-recognition-react-native-2.png" width="263" class="project__simple-screenshot" alt="React Native image recognition app" />
-        <img :immediate="true" src="../../../assets/images/apps/image-recognition-react-native-3.png" width="263" class="project__simple-screenshot" alt="React Native image recognition app" />
+    <div class="project__simple-screenshots project__simple-content--large">
+        <img src="../../../assets/images/apps/image-recognition-react-native-1.png" class="project__simple-screenshot project__simple-screenshot--third" alt="React Native image recognition app" />
+        <img src="../../../assets/images/apps/image-recognition-react-native-2.png" class="project__simple-screenshot project__simple-screenshot--third" alt="React Native image recognition app" />
+        <img src="../../../assets/images/apps/image-recognition-react-native-3.png" class="project__simple-screenshot project__simple-screenshot--third" alt="React Native image recognition app" />
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue, Prop, Mixins } from "vue-property-decorator";
+import ProjectTecnologies from "../../technologies/ProjectTechnologies.vue";
 
-@Component
+@Component({
+  components: {
+    ProjectTecnologies
+  }
+})
 export default class ImageIdentifier extends Vue {
 
 }

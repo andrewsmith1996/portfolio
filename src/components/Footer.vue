@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <p class="footer__text">Copyright &copy; 2019</p>
+    <p class="footer__text">Copyright &copy; 2020</p>
     <p class="footer__text"><a href="https://andrewsmithdeveloper.com">Andrew Smith - Developer</a></p>
   </footer>
 </template>

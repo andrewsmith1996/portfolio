@@ -11,9 +11,9 @@ $white: white;
 $grey-light:darken($white, 13%);
 
 @mixin inner-container {
-	width:75%;
+	width:80%;
 	margin:0 auto;
-	@media only screen and (max-width: 1080px) {
+	@media only screen and (max-width: 1280px) {
 		width:85%;
 	}
 }
@@ -146,9 +146,12 @@ p, li {
 		flex: 1;		
 		flex-wrap: wrap;
 
-		@media only screen and (min-width: 960px) {
-			@include on-circle($item-count: 6, $circle-size: 15.5em, $item-size: 4em); 
-			flex-direction: row;
+		.circle{ 
+			display: flex;
+			@media only screen and (min-width: 960px) {
+				@include on-circle($item-count: 8, $circle-size: 17em, $item-size: 4em); 
+				flex-direction: row;
+			}
 		}
 
 		img { 
@@ -159,9 +162,10 @@ p, li {
 			border: solid 5px $white;
 			transition: .15s;
 			padding:10px;
-			height:70px;
-			width:70px;
+			height:50px;
+			width:50px;
 			margin: 8px;
+			object-fit: cover;
 
 			@media only screen and (min-width: 960px) {
 				margin: 0 8px;
@@ -304,6 +308,7 @@ p, li {
 .project {
 	&__simple {
 		display:flex;
+		justify-content: space-between;
 		@include section-spacing(40px);
 		@media only screen and (max-width: 768px) {
 			flex-direction: column;
@@ -312,8 +317,26 @@ p, li {
 		&-content {
 			display:flex;
 			flex-direction: column;
-			flex-basis:100%;
-			flex-grow:1;
+
+			&--large {
+				width:67.5%;
+			}
+
+			&--small {
+				width:27.5%;
+			}
+
+			&--half {
+				width:45%;
+			}
+
+			&--two-thirds {
+				width:63%;
+			}
+
+			&--one-third {
+				width:30%;
+			}
 
 			@media only screen and (max-width: 768px) {
 				margin-bottom:25px;
@@ -323,9 +346,6 @@ p, li {
 		&-screenshots {
 			display:flex;
 			justify-content: center;
-			flex-basis:100%;
-			flex-grow:1;
-			width:100%;
 
 			@media only screen and (max-width: 768px) {
 				flex-direction: column;
@@ -335,7 +355,7 @@ p, li {
 			
 			&--row {
 				display: flex;
-				justify-content: space-evenly;
+				justify-content: center;
 				align-items: center;
 				flex-basis:100%;
 				flex-grow:1;
@@ -348,10 +368,26 @@ p, li {
 
 		&-screenshot {
 			margin: 0 10px;
-			
+			object-fit: contain;
 			@media only screen and (max-width: 768px) {
 				margin-bottom:25px;
 				width:80%;
+			}
+
+			&--full {
+				width:100%;
+			}
+
+			&--quarter {
+				width:25%;
+			}
+
+			&--half {
+				width:45%;
+			}
+
+			&--third {
+				width:30%;
 			}
 
 			@include transition();
@@ -363,6 +399,7 @@ p, li {
 	}
 
 	&__features-list {
+		margin-bottom:15px;
 		li {
 			margin-bottom:5px;
 		}
@@ -371,6 +408,7 @@ p, li {
 	&__title {
 		color:$white;
 		font-size:23px;
+		margin-bottom:3px;
 	}
 
 	&__technologies {
@@ -420,15 +458,17 @@ p, li {
 	}
 
 	&__header-title {
-
+		margin-bottom:5px;
 	}
 
 	&__header-grade {
 		color: $grey-light;
+		margin-bottom:10px;
 	}
 
 	&__header-percentage {
 		font-size:26px;
+		margin-bottom:10px;
 	}
 
 	&__header-dates {
@@ -681,7 +721,7 @@ p, li {
 					content: '';
 					width: 100%;
 					height: 100%;
-					background: linear-gradient(to bottom, rgba(0, 0, 0, 0) -100%, #1A2980 50%);
+					background: linear-gradient(to bottom, rgba(0, 0, 0, 0) -100%, #1A2980 80%);
 					position: absolute;
 					bottom: 0;
 					left: 0;
@@ -697,9 +737,12 @@ p, li {
 				position:relative;
 			}
 		}
+		&-preview__date {
+			font-size:14px;
+		}
 
 		&-preview__url {
-			font-size:12px;
+			font-size:16px;
 			color: $grey-light;
 			display: block;
 			margin-bottom:20px;
@@ -710,14 +753,14 @@ p, li {
 		}
 
 		&-preview__title {
-			margin: 5px 0;
+			margin-bottom: 2px;
 			a {
 				text-decoration: none;
 			}
 		}
 
 		&-preview__content {
-			margin: 5px 0;
+			margin: 10px 0;
 		}
 	}
 
@@ -761,5 +804,26 @@ p, li {
 .vueperslides__parallax-wrapper {
 	&::after, &::before{
 		box-shadow: none !important;
+	}
+}
+
+.project__technologies-icons {
+	display: flex;
+
+	img { 
+		display: block; 
+		max-width: 100%; 
+		border-radius: 50%;
+		border: solid 5px $white;
+		transition: .15s;
+		padding:7px;
+		height:50px;
+		width:50px;
+		margin: 5px;
+		object-fit: cover;
+
+		&:first-child {
+			margin-left: 0;
+		}
 	}
 }

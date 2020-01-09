@@ -4,7 +4,7 @@
 
 <template>
   <div class="project__simple">
-    <div class="project__simple-content">
+    <div class="project__simple-content project__simple-content--small">
       <h3 class="project__title">Memories</h3>
       <h6 class="project__technologies">Ionic 4, Angular, Firebase</h6>
       <p class="project__description">Diary and journaling application for capturing and collecting social experiences.<br>Share, scan and collect friends’ memories with QR codes to build memory diaries together.</p>
@@ -17,11 +17,12 @@
           <li>QR Code Generation &amp; QR Code Scanner</li>
           <li>Social Media Sharing</li>
       </ul> 
+       <ProjectTecnologies :technologies="['ionic', 'typescript', 'firebase', 'angular', 'sass']" />
     </div>
-    <div class="project__simple-screenshots">
-      <img :immediate="true" src="../../../assets/images/apps/memories_one.png" width="263" height="536" class="project__simple-screenshot" alt="Memories app built in Ionic 4" /> 
-      <img :immediate="true" src="../../../assets/images/apps/memories_two.png" width="263" height="536" class="project__simple-screenshot" alt="Memories app built in Ionic 4" /> 
-      <img :immediate="true" src="../../../assets/images/apps/memories_four.png" width="263" height="536" class="project__simple-screenshot" alt="Memories app built in Ionic 4" /> 
+    <div class="project__simple-screenshots project__simple-content--large">
+      <img src="../../../assets/images/apps/memories_one.png" class="project__simple-screenshot project__simple-screenshot--third" alt="Memories app built in Ionic 4" /> 
+      <img src="../../../assets/images/apps/memories_two.png" class="project__simple-screenshot project__simple-screenshot--third" alt="Memories app built in Ionic 4" /> 
+      <img src="../../../assets/images/apps/memories_four.png" class="project__simple-screenshot project__simple-screenshot--third" alt="Memories app built in Ionic 4" /> 
     </div>
   </div>
 
@@ -29,8 +30,13 @@
 
 <script lang="ts">
 import { Component, Vue, Prop, Mixins } from "vue-property-decorator";
+import ProjectTecnologies from "../../technologies/ProjectTechnologies.vue";
 
-@Component
+@Component({
+  components: {
+    ProjectTecnologies
+  }
+})
 export default class Memories extends Vue {
 
 }

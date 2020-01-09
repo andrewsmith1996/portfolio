@@ -4,7 +4,7 @@
 <template>
   <div>
     <div class="project__simple">
-      <div class="project__simple-content">
+      <div class="project__simple-content project__simple-content--half">
         <h3 class="project__title">Gluco - AI &amp; Machine Learning</h3>
         <h6 class="project__technologies">Ionic 3, Node.js, MongoDB, Express, Angular</h6>
         <p class="project__description">
@@ -14,18 +14,19 @@
             <br><br>
             Scoring 100% in the final written report, this project looked into the provision of various artificial intelligence and machine learning techniques to identify patterns of poor blood sugar control, give recommendations to patients on fixing patterns, identfiying the causes of patterns, validating when a pattern has been fixed and a machine learning enabled insulin dose calculator.
         </p>
+        <ProjectTecnologies :technologies="['ionic', 'typescript', 'mongo', 'node', 'express', 'angular', 'sass']" />
       </div>
-      <div class="project__simple-screenshots">
-        <img :immediate="true" src="../../../assets/images/apps/gluco_one.png" width="263" class="project__simple-screenshot" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />  
-        <img :immediate="true" src="../../../assets/images/apps/gluco_two.png" width="263" class="project__simple-screenshot" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" /> 
+      <div class="project__simple-screenshots project__simple-content--half">
+        <img src="../../../assets/images/apps/gluco_one.png" class="project__simple-screenshot project__simple-screenshot--half" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />  
+        <img src="../../../assets/images/apps/gluco_two.png" class="project__simple-screenshot project__simple-screenshot--half" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" /> 
       </div>
     </div>
     <div class="project__simple--full-row">
       <div class="project__simple-screenshots--row">
-        <img :immediate="true" src="../../../assets/images/apps/gluco_four.png" width="263" class="project__simple-screenshot" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />
-        <img :immediate="true" src="../../../assets/images/apps/gluco_three.png" width="263" class="project__simple-screenshot" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />
-        <img :immediate="true" src="../../../assets/images/apps/gluco_five.png" width="263" class="project__simple-screenshot" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />
-        <img :immediate="true" src="../../../assets/images/apps/gluco_six.png" width="263" class="project__simple-screenshot" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />
+        <img src="../../../assets/images/apps/gluco_four.png" class="project__simple-screenshot project__simple-screenshot--quarter" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />
+        <img src="../../../assets/images/apps/gluco_three.png" class="project__simple-screenshot project__simple-screenshot--quarter" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />
+        <img src="../../../assets/images/apps/gluco_five.png" class="project__simple-screenshot project__simple-screenshot--quarter" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />
+        <img src="../../../assets/images/apps/gluco_six.png" class="project__simple-screenshot project__simple-screenshot--quarter" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />
       </div>
     </div>
   </div>
@@ -33,8 +34,13 @@
 
 <script lang="ts">
 import { Component, Vue, Prop, Mixins } from "vue-property-decorator";
+import ProjectTecnologies from "../../technologies/ProjectTechnologies.vue";
 
-@Component
+@Component({
+  components: {
+    ProjectTecnologies
+  }
+})
 export default class Gluco extends Vue {
 
 }
