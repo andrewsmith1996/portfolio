@@ -6,10 +6,13 @@
           <h3 class="skills__list-title">Back-end development</h3>
           <ul class="skills__list">
               <li><span></span>NodeJS</li>
+              <li><span></span>Express</li>
+              <li><span></span>Socket.io</li>
               <li><span></span>MongoDB</li>
               <li><span></span>Google Firebase, Google Cloud</li>
               <li><span></span>PHP, SQL, mySQL</li>
-              <li><span></span>C++, C#</li>
+              <li><span></span>C++</li>
+              <li><span></span>C#</li>
               <li><span></span>Python</li>
               <li><span></span>CraftCMS, PHPmyAdmin</li>
           </ul>

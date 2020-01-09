@@ -8,7 +8,7 @@
       <br><br>A blog post on building this game and my experience at Lincoln Hack 2018 can be found <a href="https://thisdeveloperslife.wordpress.com/2018/11/11/my-weekend-at-lincoln-hack-2018-featuring-websockets-pixelated-lancaster-bombers-and-winning-24-cans-of-red-bull/" target="_blank">here</a>.
       <br><br><a href="https://github.com/andrewsmith1996/HackBusters-Lincoln-Hack-2018" target="_blank">View on GitHub</a>
       </p>
-      <ProjectTecnologies :technologies="['node', 'express', 'socketio']" />
+      <ProjectTecnologies :technologies="['node', 'express', 'socketio', 'jquery']" />
       </div>
     <div class="project__simple-screenshots project__simple-content--half">
         <img src="../../../assets/images/apps/hackbusters.png" class="project__simple-screenshot project__simple-screenshot--full" alt="Socket.IO, Node.js and Express interactive Dambusters Game" />

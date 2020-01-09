@@ -17,7 +17,7 @@
           <li>QR Code Generation &amp; QR Code Scanner</li>
           <li>Social Media Sharing</li>
       </ul> 
-       <ProjectTecnologies :technologies="['ionic', 'typescript', 'firebase', 'angular', 'sass']" />
+       <ProjectTecnologies :technologies="['ionic', 'typescript', 'firebase', 'angular', 'googlemaps', 'cordova']" />
     </div>
     <div class="project__simple-screenshots project__simple-content--large">
       <img src="../../../assets/images/apps/memories_one.png" class="project__simple-screenshot project__simple-screenshot--third" alt="Memories app built in Ionic 4" /> 

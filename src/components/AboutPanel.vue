@@ -4,7 +4,7 @@
     <div class="about-panel__block">
       <img :immediate="true" width="50"  class="about-panel__block-icon" src="../assets/images/icons/web.png" alt="Web Development Icon" />
       <h3 class="about-panel__block-title">Web Development</h3>
-      <p class="about-panel__block_description">Web design &amp; web development skills with a year's experience of working within an agency and a year's freelance experience.</p>
+      <p class="about-panel__block_description">Full-stack web development skills with 1.5 year's experience of working within award-winning agencies and a year's freelance experience.</p>
     </div>
 
     <div class="about-panel__block">
@@ -16,7 +16,7 @@
     <div class="about-panel__block">
       <img :immediate="true" width="50" class="about-panel__block-icon" src="../assets/images/icons/comp-sci.png" alt="Computer Science Icon" />
       <h3 class="about-panel__block-title">Computer Science</h3>
-      <p class="about-panel__block_description">First Class Honours degree in BSc Computer Science (85%) with a year's placement in industry, winning both the 'Best Graduate' and 'Best Project' awards.</p>
+      <p class="about-panel__block_description">First Class Honours degree in BSc Computer Science (86%) with a year's placement in industry, winning both the 'Best Graduate' and 'Best Project' awards.</p>
     </div>
   </div>
 </section>

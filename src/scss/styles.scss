@@ -809,7 +809,8 @@ p, li {
 
 .project__technologies-icons {
 	display: flex;
-
+	flex-wrap: wrap;
+	margin-left:-7px; // Inverse of below margin
 	img { 
 		display: block; 
 		max-width: 100%; 
@@ -817,13 +818,9 @@ p, li {
 		border: solid 5px $white;
 		transition: .15s;
 		padding:7px;
-		height:50px;
-		width:50px;
-		margin: 5px;
+		height:60px;
+		width:60px;
+		margin: 7px;
 		object-fit: cover;
-
-		&:first-child {
-			margin-left: 0;
-		}
 	}
 }

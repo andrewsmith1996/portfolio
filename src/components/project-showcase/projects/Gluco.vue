@@ -14,7 +14,7 @@
             <br><br>
             Scoring 100% in the final written report, this project looked into the provision of various artificial intelligence and machine learning techniques to identify patterns of poor blood sugar control, give recommendations to patients on fixing patterns, identfiying the causes of patterns, validating when a pattern has been fixed and a machine learning enabled insulin dose calculator.
         </p>
-        <ProjectTecnologies :technologies="['ionic', 'typescript', 'mongo', 'node', 'express', 'angular', 'sass']" />
+        <ProjectTecnologies :technologies="['ionic', 'typescript', 'mongo', 'node', 'express', 'angular', 'sass', 'heroku']" />
       </div>
       <div class="project__simple-screenshots project__simple-content--half">
         <img src="../../../assets/images/apps/gluco_one.png" class="project__simple-screenshot project__simple-screenshot--half" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />  

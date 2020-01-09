@@ -2,7 +2,7 @@
   <div>
     <h1 class="header__title">Andrew Smith</h1>
     <h2 class="header__subtitle">Developer</h2>
-    <p class="header__intro">A double award winning First Class BSc (Hons) Computer Science graduate and agency experienced developer specialising in web development and mobile app development.<br /><br />Currently working with Vue.js, MEAN stack technologies, native mobile application development and cross-platform application development.</p>
+    <p class="header__intro">A double award winning First Class BSc (Hons) Computer Science graduate and agency experienced developer specialising in full-stack web development and software architecture design.<br /><br />Currently working in a full-stack developer role in Nottingham at <a href="https://nuom.co.uk/" target="_blank">Nuom</a> using Node.js, Vue.js, Express, MongoDB and Google Firebase to build APIs, cloud-hosted microservices and front-end UI. </p>
     <SocialLinks />
   </div>
 </template>

@@ -7,6 +7,7 @@
             <ul class="skills__list">
                 <li><span></span>ReactJS, Vue.js, Angular</li>
                 <li><span></span>TypeScript</li>
+                <li><span></span>Gatsby.js, Gridsome</li>
                 <li><span></span>HTML, CSS, LESS, SASS</li>
                 <li><span></span>Ionic Framework, React Native</li>
                 <li><span></span>Bootstrap, Flexbox</li>

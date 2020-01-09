@@ -16,7 +16,7 @@
                 <li>Contacts directory integration</li>
                 <li>Fragments, Implicit &amp; Explicit intents</li>
             </ul> 
-            <ProjectTecnologies :technologies="['android', 'java', 'firebase']" />
+            <ProjectTecnologies :technologies="['android', 'firebase', 'java']" />
         </div>
         <div class="project__simple-screenshots project__simple-content--large">
             <img src="../../../assets/images/apps/hoptical-one.png" class="project__simple-screenshot project__simple-screenshot--third" alt="Hoptical Craft Beer Tracking app built in Android" />
