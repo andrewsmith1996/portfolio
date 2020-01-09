@@ -174,7 +174,7 @@ p, li {
 	}
 
 	&__title {
-		font-size: 60px;
+		font-size: 68px;
 		font-weight:500;
 		height:65px;
 	}
@@ -321,9 +321,13 @@ p, li {
 			a {
 				margin-left:10px;
 			}
-			
+
 			img {
 				width:35px;
+				@include transition();
+				&:hover, &:active {
+					transform: scale(1.1);
+				}
 			}
 		}
 
@@ -421,7 +425,6 @@ p, li {
 	&__title {
 		color:$white;
 		font-size:23px;
-		margin-bottom:3px;
 	}
 
 	&__technologies {
@@ -532,6 +535,7 @@ p, li {
 	
 	&__row {
 		display:flex;
+		align-items: flex-start;
 		color:#fff;
 		margin-bottom:25px;
 		@media only screen and (max-width: 768px) {
@@ -824,6 +828,7 @@ p, li {
 	display: flex;
 	flex-wrap: wrap;
 	margin-left:-7px; // Inverse of below margin
+	@include transition();
 	img { 
 		display: block; 
 		max-width: 100%; 
@@ -835,5 +840,8 @@ p, li {
 		width:60px;
 		margin: 7px;
 		object-fit: cover;
+		&:hover, &:active {
+			transform: scale(1.1);
+		}
 	}
 }

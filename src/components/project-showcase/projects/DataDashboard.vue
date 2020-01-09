@@ -7,7 +7,7 @@
             <img src="../../../assets/images/icons/github.png">
             </a>
         </div>
-        <h6 class="project__technologies">React, Flexbox</h6>
+        <h6 class="project__technologies">React, Flexbox, SASS</h6>
         <p class="project__description">A ReactJS project that utilises a variety of third-party APIs to display and organise useful personal information including unique iCal calendar integration, WunderList integration and both news and weather APIs.<br><br>This web app also features on-demand refreshing of information, CSS animation and a layout built using Flexbox.</p>
         <ProjectTecnologies :technologies="['react', 'node', 'sass']" />
     </div>

@@ -12,7 +12,7 @@
             </a>
         </div>
       <h6 class="project__technologies">Ionic 4, Angular, Firebase</h6>
-      <p class="project__description">Diary and journaling application for capturing and collecting social experiences.<br>Share, scan and collect friends’ memories with QR codes to build memory diaries together.</p>
+      <p class="project__description">Diary and journaling application for capturing and collecting social experiences. Share, scan and collect friends’ memories with QR codes to build memory diaries together.</p>
       <ul class="project__features-list">
           <li>Google Firebase Authentication, Realtime Database & Storage</li>
           <li>Device Contacts List &amp; Camera Integration</li>

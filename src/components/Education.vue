@@ -93,7 +93,7 @@ export default class Education extends Vue {
       "result": "1st"
     },
     {
-      "title": "Programming Paradigns",
+      "title": "Programming Paradigms",
       "result": "2:1"
     }
   ],
