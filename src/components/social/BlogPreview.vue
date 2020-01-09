@@ -3,7 +3,7 @@
   <div class="contact__blog">
     <h2 class="contact__blog-preview__top-title">Latest from my blog</h2>
     <a href="https://thisdeveloperslife.wordpress.com/" target="_blank" class="contact__blog-preview__url">thisdeveloperslife.wordpress.com</a>
-      <vueper-slides v-if="blogPosts" :bullets="false" :visible-slides="3" slide-multiple :gap="3" :dragging-distance="200">
+      <vueper-slides v-if="blogPosts" :bullets="false" :visible-slides="postsToShow" slide-multiple :gap="3" :dragging-distance="200">
         <vueper-slide v-for="(post, index) in blogPosts" :key="index" class="contact__blog-preview">
           <template v-slot:content>
             <article>
@@ -33,8 +33,8 @@ import axios from 'axios';
    }
 })
 export default class BlogPreview extends Vue {
-
-  blogPosts: Array<any> = [];
+    blogPosts: Array<any> = [];
+    $mq!: any;
   async mounted() {
      try {
         let response = await axios.get('https://public-api.wordpress.com/rest/v1.1/sites/117679029/posts/');
@@ -49,6 +49,10 @@ export default class BlogPreview extends Vue {
      } catch (e) {
        console.log(e);
      }
+  }
+
+  get postsToShow() : number {
+      return 3;
   }
 }
 </script>
