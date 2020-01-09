@@ -8,7 +8,7 @@
           <template v-slot:content>
             <article>
               <h4 class="contact__blog-preview__title"><strong><a :href=post.url v-html="post.title"></a></strong></h4>
-              <span>Posted on {{ post.PostDate }}</span>
+              <span>Posted on {{ post.postDate }}</span>
               <p class="contact__blog-preview__content" v-html="post.intro"></p>
               <a :href="post.url" target="_blank">read more</a>
             </article>
@@ -43,7 +43,7 @@ export default class BlogPreview extends Vue {
             title: post.title,
             url: post.URL,
             intro: post.excerpt,
-            postDate: moment(post.date).format('MMMM Do YYYY, h:mma')
+            postDate: moment(new Date(post.date)).format('MMMM Do YYYY, h:mma')
           } as any;
         });
      } catch (e) {

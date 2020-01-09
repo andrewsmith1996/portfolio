@@ -11,7 +11,7 @@
                     <h3 class="projects__card-title">Industrial Placement year</h3>
                     <p class="projects__card-description">Year in industry creating websites and online software at <a href="https://cursor.co.uk" target="_blank">Cursor</a> for customers and clients across a broad range of industries. Helpdesk technical support, designing front-end wireframes and visuals and general software development processes. Involved in client meetings, working closely with professional clients and participating in R&amp;D projects.</p>
                 </div>
-                <img :immediate="true" class="projects__card-image" width="110" src="../assets/images/projects/cursor.png" alt="MTA Exam" />
+                <img class="projects__card-image" width="110" src="../assets/images/projects/cursor.png" alt="MTA Exam" />
                 <span class="projects__card-date">2017 - 2018</span>
             </div>
 
@@ -38,7 +38,7 @@
                     <h3 class="projects__card-title">Microsoft Technology Associate</h3>
                     <p class="projects__card-description">Officially certified as a Microsoft Technology Associate in HTML5 Application Development Fundamentals.</p>
                 </div>
-                <img :immediate="true" class="projects__card-image" width="150" height="150" src="../assets/images/assets/mta-logo.png" alt="MTA Exam" />
+                <img class="projects__card-image" width="150" height="150" src="../assets/images/projects/mta-logo.png" alt="MTA Exam" />
                 <span class="projects__card-date">2019</span>
             </div>
 

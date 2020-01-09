@@ -10,7 +10,7 @@
       </p>
       </div>
     <div class="project__simple-screenshots">
-        <img :immediate="true" src="../../../assets/images/apps/hackbusters.png" background="transparent" fit="contain" width="480" height="347" class="project__simple-screenshot" alt="Socket.IO, Node.js and Express interactive Dambusters Game" />
+        <img src="../../../assets/images/apps/hackbusters.png" class="project__simple-screenshot" alt="Socket.IO, Node.js and Express interactive Dambusters Game" />
     </div>
   </div>
 </template>

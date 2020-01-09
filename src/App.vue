@@ -1,23 +1,16 @@
 <template>
-    <html lang="en">
-      <head>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,500|Open+Sans:600">
-      </head>
-      <body>
-        <div id="app">
-          <Header />
-          <div class="gradient-wrapper">
-            <AboutPanel />
-            <ProjectShowcase />
-            <Skills />
-            <Education />
-            <Projects />
-            <Contact /> 
-          </div>
-          <Footer />
-        </div>
-      </body>
-    </html>
+  <div id="app">
+  <Header />
+  <div class="gradient-wrapper">
+    <AboutPanel />
+    <ProjectShowcase />
+    <Skills />
+    <Education />
+    <Projects />
+    <Contact /> 
+  </div>
+  <Footer />
+</div>
 </template>
 
 <script lang="ts">
