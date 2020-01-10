@@ -181,7 +181,17 @@ p, li {
 	&__title {
 		font-size: 68px;
 		font-weight:500;
-		height:65px;
+        height:65px;
+        
+        @media only screen and (max-width: 600px) {
+            font-size: 56px;
+            height:auto;
+        }
+
+        @media only screen and (max-width: 400px) {
+            font-size: 46px;
+            height:auto;
+        }
 	}
 
 	&__subtitle {

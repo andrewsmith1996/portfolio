@@ -1,7 +1,7 @@
 <template>
   <div class="project-screen">
     <a href="https://www.inconnectcables.co.uk" target="_blank" class="project-screen__link">
-      <img :immediate="true" src="../../../assets/images/websites/inconnect-cables.png" width="555" alt="Inconnect Cables website - Built at Cursor" />
+      <img src="../../../assets/images/websites/inconnect-cables.png" alt="Inconnect Cables website - Built at Cursor" />
   </a>
   <h5 class="project-screen__title">Inconnect Cables</h5>
   <p class="project-screen__caption">HTML, CSS, JavaScript, CraftCMS based on provided designs<br>Built on placement at <a href="https://cursor.co.uk" target="_blank">Cursor</a></p>
