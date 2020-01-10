@@ -687,6 +687,7 @@ p, li {
 		flex-basis:100%;
 		flex-grow:1;
 		flex-direction: column;
+		justify-content: center;
 	}
 
 	&__skills-example {
@@ -704,8 +705,9 @@ p, li {
 
 	&__list {
 		margin-bottom:20px;
+		list-style-type: none
 		li {
-			margin-bottom:5px;
+			margin-bottom:10px;
 		}
 	}
 }
