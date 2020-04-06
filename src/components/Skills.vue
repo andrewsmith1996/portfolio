@@ -1,6 +1,6 @@
 <template>
-  <section class="skills">
-    <div class="skills__inner-container">
+  <section>
+    <div>
       <SkillsHeader />
       <FrontendSkills />
       <BackendSkills />

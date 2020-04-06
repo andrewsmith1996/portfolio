@@ -1,10 +1,10 @@
 <template>
-  <div class="project-screen">
+  <div>
     <a href="https://www.espressodesign.co.uk/offers" target="_blank" class="project-screen__link">
        <img src="../../../assets/images/websites/espresso-design.png" alt="Espresso Design Offers Page - Built at Cursor" />
     </a>
-    <h5 class="project-screen__title">Espresso Design offers page</h5>
-    <p class="project-screen__caption">HTML, CSS, JavaScript based on provided designs<br>Built on placement at<a href="https://cursor.co.uk" target="_blank">Cursor</a></p>
+    <h5>Espresso Design offers page</h5>
+    <p>HTML, CSS, JavaScript based on provided designs<br>Built on placement at<a href="https://cursor.co.uk" target="_blank">Cursor</a></p>
   </div>
 </template>
 

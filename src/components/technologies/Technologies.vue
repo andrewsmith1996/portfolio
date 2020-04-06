@@ -1,15 +1,15 @@
 <template>
-  <section class="technologies">
+  <section class="technologies header__technologies">
     <div class="circle">
-      <img src="../../assets/images/technologies/mongodb.png" alt="MongoDB Logo" />
-      <img src="../../assets/images/technologies/ionic.png" alt="Ionic Logo" />
-      <img src="../../assets/images/technologies/sass-new.png" alt="sass Logo" />
-      <img src="../../assets/images/technologies/typescript.png" alt="Typescript Logo" />
-      <img src="../../assets/images/technologies/vue.png" alt="Vue.js Logo" />
-      <img src="../../assets/images/technologies/react.png" alt="react.js Logo" />
-      <img src="../../assets/images/technologies/js.png" alt="JavaScript Logo" />
-      <img src="../../assets/images/technologies/firebase.png" alt="Firebase Logo" />
-      <img src="../../assets/images/technologies/node.png" alt="Node.js Logo" />
+      <img class="w-16" src="../../assets/images/technologies/mongodb.png" alt="MongoDB Logo" />
+      <img class="w-16" src="../../assets/images/technologies/ionic.png" alt="Ionic Logo" />
+      <img class="w-16" src="../../assets/images/technologies/sass-new.png" alt="sass Logo" />
+      <img class="w-16" src="../../assets/images/technologies/typescript.png" alt="Typescript Logo" />
+      <img class="w-16" src="../../assets/images/technologies/vue.png" alt="Vue.js Logo" />
+      <img class="w-16" src="../../assets/images/technologies/react.png" alt="react.js Logo" />
+      <img class="w-16" src="../../assets/images/technologies/js.png" alt="JavaScript Logo" />
+      <img class="w-16" src="../../assets/images/technologies/firebase.png" alt="Firebase Logo" />
+      <img class="w-16" src="../../assets/images/technologies/node.png" alt="Node.js Logo" />
     </div>
   </section>
 </template>

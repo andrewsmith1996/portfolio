@@ -1,8 +1,8 @@
 <template>
   <header class="header">
-    <div class="header__inner-container">
-        <HeaderContent class="header__content"/>
-        <Technologies class="header__technologies"/>
+    <div class="flex z-10 relative">
+        <HeaderContent class="w-2/3" />
+        <Technologies class="w-1/3"/>
       </div>
   </header>
 </template>

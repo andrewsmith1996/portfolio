@@ -3,17 +3,17 @@
 
 
 <template>
-  <div class="project__simple">
-    <div class="project__simple-content project__simple-content--small">
-      <div class="project__simple-header">
-      <h3 class="project__title">Memories</h3>
+  <div class="flex">
+    <div class="flex flex-col w-1/3">
+      <div>
+      <h3>Memories</h3>
           <a href="https://github.com/andrewsmith1996/memories-ionic-app" target="_blank">
             <img src="../../../assets/images/icons/github.png">
             </a>
         </div>
-      <h6 class="project__technologies">Ionic 4, Angular, Firebase</h6>
-      <p class="project__description">Diary and journaling application for capturing and collecting social experiences. Share, scan and collect friends’ memories with QR codes to build memory diaries together.</p>
-      <ul class="project__features-list">
+      <h6>Ionic 4, Angular, Firebase</h6>
+      <p>Diary and journaling application for capturing and collecting social experiences. Share, scan and collect friends’ memories with QR codes to build memory diaries together.</p>
+      <ul>
           <li>Google Firebase Authentication, Realtime Database & Storage</li>
           <li>Device Contacts List &amp; Camera Integration</li>
           <li>Geolocation &amp; Interactive Map with Custom Markers</li>
@@ -24,10 +24,10 @@
       </ul> 
        <ProjectTecnologies :technologies="['ionic', 'typescript', 'firebase', 'angular', 'googlemaps', 'cordova']" />
     </div>
-    <div class="project__simple-screenshots project__simple-content--large">
-      <img src="../../../assets/images/apps/memories_one.png" class="project__simple-screenshot project__simple-screenshot--third" alt="Memories app built in Ionic 4" /> 
-      <img src="../../../assets/images/apps/memories_two.png" class="project__simple-screenshot project__simple-screenshot--third" alt="Memories app built in Ionic 4" /> 
-      <img src="../../../assets/images/apps/memories_four.png" class="project__simple-screenshot project__simple-screenshot--third" alt="Memories app built in Ionic 4" /> 
+    <div class="flex w-3/4">
+      <img class="w-1/3" src="../../../assets/images/apps/memories_one.png" alt="Memories app built in Ionic 4" /> 
+      <img class="w-1/3" src="../../../assets/images/apps/memories_two.png" alt="Memories app built in Ionic 4" /> 
+      <img class="w-1/3" src="../../../assets/images/apps/memories_four.png" alt="Memories app built in Ionic 4" /> 
     </div>
   </div>
 

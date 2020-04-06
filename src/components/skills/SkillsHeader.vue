@@ -1,9 +1,9 @@
 
 <template>
-  <div class="row">
-    <div class="col-md-12">
+  <div>
+    <div>
       <h2>Skills</h2>
-      <p class="subtitle">What do I know?</p>
+      <p>What do I know?</p>
     </div>
   </div>
 </template>

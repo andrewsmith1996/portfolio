@@ -1,6 +1,6 @@
 <template>
-  <section class="projects-panel">
-    <div class="projects-panel__inner-container">
+  <section>
+    <div>
       <ProjectShowcaseHeader  />
       <Gluco  />
       <Memories  />
@@ -11,11 +11,11 @@
       <GeolocationWeatherApp  />
       <HackbustersGame />  
       
-      <div class="projects__screens" >
-        <div class="projects__screen">
+      <div class="flex">
+        <div>
           <InconnectCables />
         </div>
-        <div class="projects__screen">
+        <div>
           <EspressoDesign />
         </div>
       </div>

@@ -1,7 +1,7 @@
 <template>
-  <footer class="footer">
-    <p class="footer__text">Copyright &copy; 2020</p>
-    <p class="footer__text"><a href="https://andrewsmithdeveloper.com">Andrew Smith - Developer</a></p>
+  <footer class="bg-light-blue">
+    <p class="text-center">Copyright &copy; 2020</p>
+    <p class="text-center"><a href="https://andrewsmithdeveloper.com">Andrew Smith - Developer</a></p>
   </footer>
 </template>
 

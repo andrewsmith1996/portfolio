@@ -1,30 +1,30 @@
 <template>
   <div>
-    <div class="skills__container">
-      <div class="skills__content-container">
-        <div class="skills__skills-content">
-          <h3 class="skills__list-title">Back-end development</h3>
-          <ul class="skills__list">
-              <li><span></span>NodeJS</li>
-              <li><span></span>Express</li>
-              <li><span></span>Socket.io</li>
-              <li><span></span>MongoDB</li>
-              <li><span></span>Google Firebase, Google Cloud</li>
-              <li><span></span>Travis CI/CD</li>
-              <li><span></span>PHP, SQL, mySQL</li>
-              <li><span></span>C++</li>
-              <li><span></span>C#</li>
-              <li><span></span>Python</li>
-              <li><span></span>CraftCMS, PHPmyAdmin</li>
+    <div>
+      <div class="flex">
+        <div class="w-1/2">
+          <h3 class="text-2xl text-white">Back-end development</h3>
+          <ul>
+            <li class="mb-1"><span></span>NodeJS</li>
+            <li class="mb-1"><span></span>Express</li>
+            <li class="mb-1"><span></span>Socket.io</li>
+            <li class="mb-1"><span></span>MongoDB</li>
+            <li class="mb-1"><span></span>Google Firebase, Google Cloud</li>
+            <li class="mb-1"><span></span>Travis CI/CD</li>
+            <li class="mb-1"><span></span>PHP, SQL, mySQL</li>
+            <li class="mb-1"><span></span>C++</li>
+            <li class="mb-1"><span></span>C#</li>
+            <li class="mb-1"><span></span>Python</li>
+            <li class="mb-1"><span></span>CraftCMS, PHPmyAdmin</li>
           </ul>
         </div>
-        <div class="skills__skills-example">
+        <div class="w-1/2">
             <SteveNashFashion />
         </div>
       </div>
     </div>
-    <div class="screens">
-      <div class="screens__row">
+    <div>
+      <div class="flex">
         <SimonsGroup />
         <FosterAC />
       </div>

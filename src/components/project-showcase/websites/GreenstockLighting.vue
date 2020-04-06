@@ -1,10 +1,10 @@
 <template>
-  <div class="project-screen">
-      <a href="https://www.greenstocklighting..co.uk/" target="_blank" class="project-screen__link">
+  <div>
+      <a href="https://www.greenstocklighting..co.uk/" target="_blank">
         <img src="../../../assets/images/websites/greenstock-lighting.png" alt="Greenstock Lighting - Built at Cursor" />
       </a>
-      <h5 class="project-screen__title">Greenstock Lighting</h5>
-      <p class="project-screen__caption">HTML, CSS, JavaScript, CraftCMS based on provided designs<br>Built on placement at <a href="https://cursor.co.uk" target="_blank">Cursor</a></p>
+      <h5>Greenstock Lighting</h5>
+      <p>HTML, CSS, JavaScript, CraftCMS based on provided designs<br>Built on placement at <a href="https://cursor.co.uk" target="_blank">Cursor</a></p>
   </div>
 </template>
 

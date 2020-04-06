@@ -1,18 +1,18 @@
 <template>
-   <div class="project__simple">
-    <div class="project__simple-content project__simple-content--half">
-        <div class="project__simple-header">
-        <h3 class="project__title">Personal Data Dashboard</h3>
+    <div class="flex">
+    <div class="flex flex-col w-1/3">
+      <div>
+        <h3>Personal Data Dashboard</h3>
           <a href="https://github.com/andrewsmith1996/data-dashboard" target="_blank">
             <img src="../../../assets/images/icons/github.png">
             </a>
         </div>
-        <h6 class="project__technologies">React, Flexbox, SASS</h6>
-        <p class="project__description">A ReactJS project that utilises a variety of third-party APIs to display and organise useful personal information including unique iCal calendar integration, WunderList integration and both news and weather APIs.<br><br>This web app also features on-demand refreshing of information, CSS animation and a layout built using Flexbox.</p>
+        <h6>React, Flexbox, SASS</h6>
+        <p>A ReactJS project that utilises a variety of third-party APIs to display and organise useful personal information including unique iCal calendar integration, WunderList integration and both news and weather APIs.<br><br>This web app also features on-demand refreshing of information, CSS animation and a layout built using Flexbox.</p>
         <ProjectTecnologies :technologies="['react', 'node', 'sass']" />
     </div>
-    <div class="project__simple-screenshots project__simple-content--half">
-        <img src="../../../assets/images/websites/dashboard-reactjs.png" class="project__simple-screenshot project__simple-screenshot--full" alt="ReactJS data dashboard project" />
+     <div class="flex w-2/3">
+        <img src="../../../assets/images/websites/dashboard-reactjs.png" alt="ReactJS data dashboard project" />
     </div>
   </div>
 </template>

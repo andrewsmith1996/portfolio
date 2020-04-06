@@ -1,14 +1,12 @@
 
 
 <template>
-  <section class="contact">
-    <div class="contact__inner-container">
-      <h2 class="contact__title">Say hello</h2> 
-      <p class="contact__subtitle">Get in touch</p>
-      <div class="contact__container">
-        <SocialLinks class="contact__social" />
-      </div>
-       <BlogPreview />
+  <section>
+    <div class="flex flex-col">
+      <h2>Say hello</h2> 
+      <p>Get in touch</p>
+      <SocialLinks />
+      <BlogPreview />
     </div>
   </section>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="font-ubuntu antialiased">
   <Header />
   <div class="gradient-wrapper">
     <AboutPanel />

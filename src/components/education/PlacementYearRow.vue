@@ -1,10 +1,10 @@
 
 
 <template>
-  <div class="education__placement">
-      <h3 class="education__modules-title"><strong>Industrial placement year</strong></h3>
-      <p class="education__placement-date">July 2017 - July 2018.</p>
-      <img immediate="true" width="50" src="../../assets/images/icons/work.png" alt="Working" />
+  <div class="flex flex-col justify-center items-center">
+    <h3 class="text-white text-center"><strong>Industrial placement year</strong></h3>
+    <p>July 2017 - July 2018.</p>
+    <img src="../../assets/images/icons/work.png" class="w-12" alt="Working" />
   </div>
 </template>
 

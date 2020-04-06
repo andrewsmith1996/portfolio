@@ -1,15 +1,15 @@
 <template>
-   <div class="project__simple">
-        <div class="project__simple-content project__simple-content--small">
-            <div class="project__simple-header">
-            <h3 class="project__title">Hoptical</h3>
+   <div class="flex">
+   <div class="flex flex-col w-1/3">
+      <div>
+            <h3>Hoptical</h3>
           <a href="https://github.com/andrewsmith1996/hoptical-android-app" target="_blank">
             <img src="../../../assets/images/icons/github.png">
             </a>
         </div>
-            <h6 class="project__technologies">Android, Java, Firebase</h6>
-            <p class="project__description">Craft Beer tracker Android application showcasing a range of advanced Android concepts such as:</p>
-            <ul class="project__features-list">
+            <h6>Android, Java, Firebase</h6>
+            <p>Craft Beer tracker Android application showcasing a range of advanced Android concepts such as:</p>
+            <ul>
                 <li>Google Sign-in</li>
                 <li>Google Firebase Realtime Database</li>
                 <li>Encrypted local SQL storage</li>
@@ -23,10 +23,10 @@
             </ul> 
             <ProjectTecnologies :technologies="['android', 'firebase', 'java']" />
         </div>
-        <div class="project__simple-screenshots project__simple-content--large">
-            <img src="../../../assets/images/apps/hoptical-one.png" class="project__simple-screenshot project__simple-screenshot--third" alt="Hoptical Craft Beer Tracking app built in Android" />
-            <img src="../../../assets/images/apps/hoptical-three.png" class="project__simple-screenshot project__simple-screenshot--third" alt="Hoptical Craft Beer Tracking app built in Android" />
-            <img src="../../../assets/images/apps/hoptical-two.png" class="project__simple-screenshot project__simple-screenshot--third" alt="Hoptical Craft Beer Tracking app built in Android" />
+       <div class="flex w-3/4">
+            <img src="../../../assets/images/apps/hoptical-one.png" class="w-1/4" alt="Hoptical Craft Beer Tracking app built in Android" />
+            <img src="../../../assets/images/apps/hoptical-three.png" class="w-1/4" alt="Hoptical Craft Beer Tracking app built in Android" />
+            <img src="../../../assets/images/apps/hoptical-two.png" class="w-1/4" alt="Hoptical Craft Beer Tracking app built in Android" />
         </div>
     </div>
 </template>
