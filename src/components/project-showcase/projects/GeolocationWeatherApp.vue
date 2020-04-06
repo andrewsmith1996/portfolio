@@ -1,10 +1,10 @@
 <template>
   <div class="flex">
     <div class="flex flex-col w-1/2">
-      <div>
+      <div class="flex items-center">
         <h3>Geolocation Weather Forecast</h3>
           <a href="https://github.com/andrewsmith1996/geolocationWeatherReactNative" target="_blank">
-            <img src="../../../assets/images/icons/github.png">
+            <img class="w-10" src="../../../assets/images/icons/github.png">
             </a>
         </div>
         <h6>React Native</h6>

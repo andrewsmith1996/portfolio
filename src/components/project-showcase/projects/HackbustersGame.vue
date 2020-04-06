@@ -1,10 +1,10 @@
 <template>
   <div class="flex">
     <div class="flex flex-col w-1/3">
-      <div>
+      <div class="flex items-center">
       <h3>Hackbusters - Lincoln Hack 2018</h3>
           <a href="https://github.com/andrewsmith1996/HackBusters-Lincoln-Hack-2018" target="_blank">
-            <img src="../../../assets/images/icons/github.png">
+            <img class="w-10" src="../../../assets/images/icons/github.png">
             </a>
         </div>
       <h6>Socket.IO, Node.js, Express</h6>

@@ -1,13 +1,15 @@
 <template>
-  <div id="app" class="font-ubuntu antialiased">
+  <div id="app" class="font-ubuntu antialiased text-white">
   <Header />
-  <div class="gradient-wrapper">
-    <AboutPanel />
-    <ProjectShowcase />
-    <Skills />
-    <Education />
-    <Projects />
-    <Contact /> 
+  <div class="gradient-wrapper flex flex-col justify-center items-center">
+    <div class="max-w-screen-xl">
+      <AboutPanel />
+      <ProjectShowcase />
+      <Skills />
+      <Education />
+      <Projects />
+      <Contact /> 
+      </div>
   </div>
   <Footer />
 </div>

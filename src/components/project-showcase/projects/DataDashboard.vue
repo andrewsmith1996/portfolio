@@ -1,10 +1,10 @@
 <template>
     <div class="flex">
     <div class="flex flex-col w-1/3">
-      <div>
+      <div class="flex items-center">
         <h3>Personal Data Dashboard</h3>
           <a href="https://github.com/andrewsmith1996/data-dashboard" target="_blank">
-            <img src="../../../assets/images/icons/github.png">
+            <img class="w-10" src="../../../assets/images/icons/github.png">
             </a>
         </div>
         <h6>React, Flexbox, SASS</h6>

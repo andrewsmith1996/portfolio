@@ -5,10 +5,10 @@
 <template>
 <div class="flex">
     <div class="flex flex-col w-1/3">
-      <div>
+      <div class="flex items-center">
         <h3>Image Identifier </h3>
           <a href="https://github.com/andrewsmith1996/Image-Recogition-React-Native" target="_blank">
-            <img src="../../../assets/images/icons/github.png">
+            <img class="w-10" src="../../../assets/images/icons/github.png">
             </a>
         </div>
         <h6>React Native</h6>

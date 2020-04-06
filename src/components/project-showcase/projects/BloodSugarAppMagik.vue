@@ -1,10 +1,10 @@
 <template>
   <div class="flex">
     <div class="flex flex-col w-1/3">
-      <div>
+      <div class="flex items-center">
             <h3>BloodSugarAppMagik</h3>
           <a href="https://github.com/andrewsmith1996/blood-sugar-app-magik" target="_blank">
-            <img src="../../../assets/images/icons/github.png">
+            <img class="w-10" src="../../../assets/images/icons/github.png">
             </a>
         </div>
             <h6>Ionic 3, Angular, TypeScript, SASS </h6>

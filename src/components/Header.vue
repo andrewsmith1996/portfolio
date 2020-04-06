@@ -1,8 +1,8 @@
 <template>
-  <header class="header">
-    <div class="flex z-10 relative">
-        <HeaderContent class="w-2/3" />
-        <Technologies class="w-1/3"/>
+  <header class="header flex justify-center items-center">
+    <div class="max-w-screen-xl flex z-10 relative">
+        <HeaderContent class="w-1/2" />
+        <Technologies class="w-1/2"/>
       </div>
   </header>
 </template>
