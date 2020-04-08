@@ -1,8 +1,8 @@
 <template>
-  <div id="app" class="font-ubuntu antialiased text-white">
+  <div id="app" class="font-ubuntu antialiased text-white tracking-wider">
   <Header />
   <div class="gradient-wrapper flex flex-col justify-center items-center">
-    <div class="max-w-screen-xl">
+    <div class="max-w-full px-8 md:max-w-screen-xl">
       <AboutPanel class="my-8" />
       <ProjectShowcase class="my-8"/>
       <Skills class="my-8"/>

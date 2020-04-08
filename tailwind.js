@@ -18,6 +18,9 @@ module.exports = {
         'main-blue': '#004e92',
         'light-blue': '#26D0CE'
       },
+      borderRadius: {
+        card: '18px'
+      }
     },
     variants: {
       margin: ['responsive', 'last', 'first'],

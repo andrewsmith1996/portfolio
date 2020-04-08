@@ -10,9 +10,9 @@
         <p class="font-open-sans text-sm mb-6">A React Native app that uses AI and a number of React Native components to identify what's in an image taken by a user.
             <br><br>I published a full guide on how to build this app <a href="https://dev.to/andrewsmith1996/how-to-build-an-image-recognition-app-in-react-native-m6g" target="_blank">here</a> as part of a "Let's Build" series of tutorials.
             <br><br>This guide was also a featured article in Tech Nottingham's September newsletter.
-            <br><br><a href="https://github.com/andrewsmith1996/Image-Recogition-React-Native" target="_blank"> View on GitHub</a>
         </p>
-         <ProjectTecnologies class="mb-6" :technologies="['react', 'react-native']" />
+        <ViewGitHub githubLink="https://github.com/andrewsmith1996/Image-Recogition-React-Native" />
+        <ProjectTecnologies class="mb-6" :technologies="['react', 'react-native']" />
     </div>
 
     <div class="flex w-3/4 justify-center">
@@ -28,11 +28,13 @@ import { Component, Vue, Prop, Mixins } from "vue-property-decorator";
 import ProjectTecnologies from "../../technologies/ProjectTechnologies.vue";
 import Technologies from '../elements/TechnologyList.vue';
 import ProjectTitle from '../elements/Title.vue';
+import ViewGitHub from '../elements/ViewGitHub.vue';
 @Component({
   components: {
     ProjectTecnologies,
     Technologies,
-    ProjectTitle
+    ProjectTitle,
+    ViewGitHub
   }
 })
 export default class ImageIdentifier extends Vue {

@@ -6,13 +6,15 @@
       <a href="https://thisdeveloperslife.wordpress.com/" target="_blank" class="text-sm font-open-sans text-gray-400">thisdeveloperslife.wordpress.com</a>
     </div>
       <vueper-slides v-if="blogPosts" :bullets="false" :visible-slides="postsToShow" slide-multiple :gap="3" :dragging-distance="200">
-        <vueper-slide v-for="(post, index) in blogPosts" :key="index" class="bg-main-blue">
+        <vueper-slide v-for="(post, index) in blogPosts" :key="index" class="bg-main-blue rounded-card blog-preview ">
           <template v-slot:content>
             <article class="p-8">
-              <h4 class=""><strong><a :href=post.url v-html="post.title"></a></strong></h4>
-              <span class="text-sm">Posted on {{ post.postDate }}</span>
-              <p class="" v-html="post.intro"></p>
-              <a :href="post.url" target="_blank">read more</a>
+              <div class="relative z-10">
+                <h4 class=""><strong><a :href=post.url v-html="post.title"></a></strong></h4>
+                <span class="text-sm">Posted on {{ post.postDate }}</span>
+                <p class="" v-html="post.intro"></p>
+                <a :href="post.url" target="_blank">read more</a>
+              </div>
             </article>
           </template>
         </vueper-slide>

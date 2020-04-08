@@ -2,9 +2,9 @@
 
 <template>
   <div>
-    <h2 class="text-center text-xl text-main-blue mb-4"><strong>{{ title }}</strong></h2>
+    <h2 class="text-center text-2xl text-main-blue mb-4"><strong>{{ title }}</strong></h2>
     <ul>
-      <li class="text-center mb-2 text-sm" v-for="(module, index) in modules" :key="index">{{ module.title }}
+      <li class="text-center mb-2 text-base" v-for="(module, index) in modules" :key="index">{{ module.title }}
         <span>({{module.result}})</span>
       </li>
     </ul>

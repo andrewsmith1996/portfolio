@@ -1,7 +1,7 @@
 
 
 <template>
-  <h6 class="text-gray-400 text-sm font-medium mb-4" v-if="technologies">{{ technologies }}</h6>
+  <h6 class="text-gray-400 text-sm font-medium mb-4 -mt-1" v-if="technologies">{{ technologies }}</h6>
 </template>
 
 <script lang="ts">
