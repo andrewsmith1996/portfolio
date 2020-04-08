@@ -1,15 +1,15 @@
 <template>
   <section>
     <div>
-      <ProjectShowcaseHeader  />
-      <Gluco  />
-      <Memories  />
-      <Hoptical  />
-      <ImageIdentifier />
-      <DataDashboard  />
-      <BloodSugarAppMagik  />
-      <GeolocationWeatherApp  />
-      <HackbustersGame />  
+      <ProjectShowcaseHeader  class="mt-20" />
+      <Gluco  class="mb-20 mt-8" />
+      <Memories  class="my-20" />
+      <Hoptical  class="my-20" />
+      <ImageIdentifier class="my-20" />
+      <DataDashboard  class="my-20" />
+      <BloodSugarAppMagik  class="my-20" />
+      <GeolocationWeatherApp  class="my-20" />
+      <HackbustersGame class="my-20" />  
       
       <div class="flex">
         <div>

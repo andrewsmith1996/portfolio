@@ -1,8 +1,8 @@
 
 <template>
   <div>
-    <h2>My work</h2>
-    <p>Take a look at some of my recent personal projects.</p>
+    <h2 class="text-3xl font-medium">My work</h2>
+    <p class="text-sm font-open-sans text-gray-400">Take a look at some of my recent personal projects.</p>
   </div>
 </template>
 

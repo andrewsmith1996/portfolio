@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class="flex flex-col justify-center text-center">
     <a href="https://2018.lincolnhack.org/" target="_blank">
       <img :immediate="true" src="../../../assets/images/websites/lincoln-hack.png"  width="750" alt="Lincoln Hack 2018 website - Built at Cursor" />
     </a>
-    <h5>Lincoln Hack 2018</h5>
-    <p>HTML, CSS, JavaScript, CSS animations based on provided designs<br>Built on placement at <a href="https://cursor.co.uk" target="_blank">Cursor</a></p>
+    <h5 class="text-xl font-medium">Lincoln Hack 2018</h5>
+    <p class="text-xs font-open-sans text-gray-400">HTML, CSS, JavaScript, CSS animations based on provided designs<br>Built on placement at <a href="https://cursor.co.uk" target="_blank">Cursor</a></p>
   </div>
 </template>
 

@@ -3,12 +3,12 @@
   <Header />
   <div class="gradient-wrapper flex flex-col justify-center items-center">
     <div class="max-w-screen-xl">
-      <AboutPanel />
-      <ProjectShowcase />
-      <Skills />
-      <Education />
-      <Projects />
-      <Contact /> 
+      <AboutPanel class="my-8" />
+      <ProjectShowcase class="my-8"/>
+      <Skills class="my-8"/>
+      <Education class="my-8"/>
+      <Projects class="my-8"/>
+      <Contact class="my-8"/> 
       </div>
   </div>
   <Footer />

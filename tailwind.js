@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        ubuntu: ['ubuntu', 'sans-serif']
+        ubuntu: ['ubuntu', 'sans-serif'],
+        'open-sans': ['Open Sans', 'sans-serif']
       },
       fontSize: {
 

@@ -1,10 +1,10 @@
 <template>
   <div>
     <div>
-      <div class="flex">
+      <div class="flex mb-16">
         <div class="w-1/2">
-          <h3 class="text-2xl text-white">Back-end development</h3>
-          <ul>
+          <h2 class="text-xl font-medium">Front-end development</h2>
+          <ul class="mb-6 text-sm font-open-sans list-disc">
               <li class="mb-1"><span></span>ReactJS, Vue.js, Angular</li>
               <li class="mb-1"><span></span>TypeScript</li>
               <li class="mb-1"><span></span>Gatsby.js, Gridsome</li>
@@ -19,7 +19,7 @@
             <LincolnHack />
         </div>
       </div>
-      <div>
+      <div class="mb-16">
         <div class="flex">
           <GreenstockLighting />
           <NicholsonMcBride />

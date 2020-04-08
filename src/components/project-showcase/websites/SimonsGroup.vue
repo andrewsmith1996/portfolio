@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class="flex flex-col justify-center text-center">
     <a href="https://www.simonsgroup.com" target="_blank">
       <img src="../../../assets/images/websites/simons-group-main.png" alt="www.simonsgroup.com" />
     </a>
-    <h5>Simons Group</h5>
-    <p>HTML, CSS, JavaScript, CraftCMS based on provided designs<br>Built on placement at <a href="https://cursor.co.uk" target="_blank">Cursor</a></p>
+    <h5 class="text-xl font-medium">Simons Group</h5>
+    <p class="text-xs font-open-sans text-gray-400">HTML, CSS, JavaScript, CraftCMS based on provided designs<br>Built on placement at <a href="https://cursor.co.uk" target="_blank">Cursor</a></p>
   </div>
 </template>
 

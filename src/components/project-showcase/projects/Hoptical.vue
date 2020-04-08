@@ -1,15 +1,10 @@
 <template>
    <div class="flex">
    <div class="flex flex-col w-1/3">
-      <div class="flex items-center">
-            <h3>Hoptical</h3>
-          <a href="https://github.com/andrewsmith1996/hoptical-android-app" target="_blank">
-            <img class="w-10" src="../../../assets/images/icons/github.png">
-            </a>
-        </div>
-            <h6>Android, Java, Firebase</h6>
-            <p>Craft Beer tracker Android application showcasing a range of advanced Android concepts such as:</p>
-            <ul>
+      <ProjectTitle title="Hoptical" githubLink="https://github.com/andrewsmith1996/hoptical-android-app" />
+        <Technologies technologies="Android, Java, Firebase" />
+            <p class="font-open-sans text-sm mb-6">Craft Beer tracker Android application showcasing a range of advanced Android concepts such as:</p>
+            <ul class="mb-6 text-sm font-open-sans list-disc">
                 <li>Google Sign-in</li>
                 <li>Google Firebase Realtime Database</li>
                 <li>Encrypted local SQL storage</li>
@@ -21,12 +16,12 @@
                 <li>Contacts directory integration</li>
                 <li>Fragments, Implicit &amp; Explicit intents</li>
             </ul> 
-            <ProjectTecnologies :technologies="['android', 'firebase', 'java']" />
+            <ProjectTecnologies class="mb-6" :technologies="['android', 'firebase', 'java']" />
         </div>
-       <div class="flex w-3/4">
-            <img src="../../../assets/images/apps/hoptical-one.png" class="w-1/4" alt="Hoptical Craft Beer Tracking app built in Android" />
-            <img src="../../../assets/images/apps/hoptical-three.png" class="w-1/4" alt="Hoptical Craft Beer Tracking app built in Android" />
-            <img src="../../../assets/images/apps/hoptical-two.png" class="w-1/4" alt="Hoptical Craft Beer Tracking app built in Android" />
+       <div class="flex w-3/4 justify-center">
+            <img src="../../../assets/images/apps/hoptical-one.png" class="w-1/3" alt="Hoptical Craft Beer Tracking app built in Android" />
+            <img src="../../../assets/images/apps/hoptical-three.png" class="w-1/3" alt="Hoptical Craft Beer Tracking app built in Android" />
+            <img src="../../../assets/images/apps/hoptical-two.png" class="w-1/3" alt="Hoptical Craft Beer Tracking app built in Android" />
         </div>
     </div>
 </template>
@@ -34,10 +29,13 @@
 <script lang="ts">
 import { Component, Vue, Prop, Mixins } from "vue-property-decorator";
 import ProjectTecnologies from "../../technologies/ProjectTechnologies.vue";
-
+import Technologies from '../elements/TechnologyList.vue';
+import ProjectTitle from '../elements/Title.vue';
 @Component({
   components: {
-    ProjectTecnologies
+    ProjectTecnologies,
+    Technologies,
+    ProjectTitle
   }
 })
 export default class Hoptical extends Vue {

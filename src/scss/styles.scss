@@ -111,7 +111,6 @@ $grey-light:darken($white, 13%);
 			position: relative;
 
 			article {
-				padding: 18px;
 
 				&:after {
 					content: '';
@@ -125,47 +124,8 @@ $grey-light:darken($white, 13%);
 					z-index: 1;
 				}
 			}
-
-
-			h2,
-			h4,
-			span,
-			p,
-			a {
-				z-index: 3;
-				color: $white;
-				position: relative;
-			}
-		}
-
-		&-preview__date {
-			font-size: 14px;
-		}
-
-		&-preview__url {
-			font-size: 16px;
-			color: $grey-light;
-			display: block;
-			margin-bottom: 20px;
-		}
-
-		&-preview__top-title {
-			height: 30px;
-		}
-
-		&-preview__title {
-			margin-bottom: 2px;
-
-			a {
-				text-decoration: none;
-			}
-		}
-
-		&-preview__content {
-			margin: 10px 0;
 		}
 	}
-
 }
 
 .vueperslides__parallax-wrapper {

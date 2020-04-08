@@ -2,7 +2,7 @@
    <section>
     <div>
       <EducationHeader />
-      <div class="flex justify-center">
+      <div class="flex justify-center mb-4">
         <YearModules :title="educationContent.year_1_title" :modules="educationContent.year_1_modules" />
         <YearModules :title="educationContent.year_2_title" :modules="educationContent.year_2_modules" />
         <YearModules :title="educationContent.year_3_title" :modules="educationContent.year_3_modules" />

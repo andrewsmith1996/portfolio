@@ -3,9 +3,9 @@
 <template>
   <section>
     <div class="flex flex-col">
-      <h2>Say hello</h2> 
-      <p>Get in touch</p>
-      <SocialLinks />
+      <h2 class="text-3xl font-medium">Say hello</h2> 
+      <p class="text-sm mb-4">Get in touch</p>
+      <SocialLinks class="mb-4"/>
       <BlogPreview />
     </div>
   </section>

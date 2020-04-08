@@ -1,26 +1,24 @@
 <template>
   <div>
-    <div>
-      <div class="flex">
-        <div class="w-1/2">
-          <h3 class="text-2xl text-white">Back-end development</h3>
-          <ul>
-            <li class="mb-1"><span></span>NodeJS</li>
-            <li class="mb-1"><span></span>Express</li>
-            <li class="mb-1"><span></span>Socket.io</li>
-            <li class="mb-1"><span></span>MongoDB</li>
-            <li class="mb-1"><span></span>Google Firebase, Google Cloud</li>
-            <li class="mb-1"><span></span>Travis CI/CD</li>
-            <li class="mb-1"><span></span>PHP, SQL, mySQL</li>
-            <li class="mb-1"><span></span>C++</li>
-            <li class="mb-1"><span></span>C#</li>
-            <li class="mb-1"><span></span>Python</li>
-            <li class="mb-1"><span></span>CraftCMS, PHPmyAdmin</li>
-          </ul>
-        </div>
-        <div class="w-1/2">
-            <SteveNashFashion />
-        </div>
+    <div class="flex mb-16">
+      <div class="w-1/2">
+        <h2 class="text-xl font-medium">Back-end development</h2>
+        <ul class="mb-6 text-sm font-open-sans list-disc">
+          <li class="mb-1"><span></span>NodeJS</li>
+          <li class="mb-1"><span></span>Express</li>
+          <li class="mb-1"><span></span>Socket.io</li>
+          <li class="mb-1"><span></span>MongoDB</li>
+          <li class="mb-1"><span></span>Google Firebase, Google Cloud</li>
+          <li class="mb-1"><span></span>Travis CI/CD</li>
+          <li class="mb-1"><span></span>PHP, SQL, mySQL</li>
+          <li class="mb-1"><span></span>C++</li>
+          <li class="mb-1"><span></span>C#</li>
+          <li class="mb-1"><span></span>Python</li>
+          <li class="mb-1"><span></span>CraftCMS, PHPmyAdmin</li>
+        </ul>
+      </div>
+      <div class="w-1/2">
+          <SteveNashFashion />
       </div>
     </div>
     <div>

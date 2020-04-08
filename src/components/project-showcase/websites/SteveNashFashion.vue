@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="flex flex-col justify-center text-center">
     <img src="../../../assets/images/websites/steve-nash-fashion.png" alt="Steve Nash fashion designer website" />
-    <h5>Steve Nash Fashion Designer Portfolio Website</h5>
+    <h5 class="text-xl font-medium">Steve Nash Fashion Designer Portfolio Website</h5>
   </div>
 </template>
 

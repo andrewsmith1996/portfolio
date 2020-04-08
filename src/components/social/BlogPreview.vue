@@ -1,15 +1,17 @@
 
 <template>
-  <div class="contact__blog">
-    <h2 class="contact__blog-preview__top-title">Latest from my blog</h2>
-    <a href="https://thisdeveloperslife.wordpress.com/" target="_blank" class="contact__blog-preview__url">thisdeveloperslife.wordpress.com</a>
+  <div>
+    <div class="mb-6">
+      <h2 class="text-3xl font-medium">Latest from my blog</h2>
+      <a href="https://thisdeveloperslife.wordpress.com/" target="_blank" class="text-sm font-open-sans text-gray-400">thisdeveloperslife.wordpress.com</a>
+    </div>
       <vueper-slides v-if="blogPosts" :bullets="false" :visible-slides="postsToShow" slide-multiple :gap="3" :dragging-distance="200">
-        <vueper-slide v-for="(post, index) in blogPosts" :key="index" class="contact__blog-preview">
+        <vueper-slide v-for="(post, index) in blogPosts" :key="index" class="bg-main-blue">
           <template v-slot:content>
-            <article>
-              <h4 class="contact__blog-preview__title"><strong><a :href=post.url v-html="post.title"></a></strong></h4>
-              <span class="contact__blog-preview__date">Posted on {{ post.postDate }}</span>
-              <p class="contact__blog-preview__content" v-html="post.intro"></p>
+            <article class="p-8">
+              <h4 class=""><strong><a :href=post.url v-html="post.title"></a></strong></h4>
+              <span class="text-sm">Posted on {{ post.postDate }}</span>
+              <p class="" v-html="post.intro"></p>
               <a :href="post.url" target="_blank">read more</a>
             </article>
           </template>
