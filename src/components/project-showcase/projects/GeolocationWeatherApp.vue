@@ -1,6 +1,6 @@
 <template>
-  <div class="flex">
-    <div class="flex flex-col w-1/2">
+  <div class="flex flex-col md:flex-row">
+    <div class="flex flex-col w-full md:w-1/2">
      <ProjectTitle title="Geolocation Weather Forecast" githubLink="https://github.com/andrewsmith1996/geolocationWeatherReactNative" />
         <Technologies technologies="React Native" />
         <p class="font-open-sans text-sm mb-6">A simple React Native app that uses the Geolocation functionality of a mobile phone and a WeatherAPI to retrieve a user's current location and return a 5 day weather forecast for that location. 
@@ -10,7 +10,7 @@
         <ViewGitHub githubLink="https://github.com/andrewsmith1996/geolocationWeatherReactNative" />
         <ProjectTecnologies class="mb-6" :technologies="['react', 'react-native']" />
     </div>
-      <div class="flex w-1/2 justify-center">
+      <div class="flex w-full md:w-1/2 justify-center">
         <img src="../../../assets/images/apps/geolocation-one.png" class="w-1/3" alt="React Native Geolocation Weather Forecast app" />
         <img src="../../../assets/images/apps/geolocation-two.png" class="w-1/3" alt="React Native Geolocation Weather Forecast app" />
     </div>

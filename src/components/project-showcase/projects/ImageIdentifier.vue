@@ -3,8 +3,8 @@
 
 
 <template>
-<div class="flex">
-    <div class="flex flex-col w-1/3">
+<div class="flex flex-col md:flex-row">
+    <div class="flex flex-col w-full md:w-1/3">
       <ProjectTitle title="Image Identifier" githubLink="https://github.com/andrewsmith1996/Image-Recogition-React-Native" />
         <Technologies technologies="React Native" />
         <p class="font-open-sans text-sm mb-6">A React Native app that uses AI and a number of React Native components to identify what's in an image taken by a user.

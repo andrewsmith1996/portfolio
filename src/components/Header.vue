@@ -1,8 +1,8 @@
 <template>
   <header class="header flex justify-center items-center py-24">
     <div class="max-w-full px-8 md:max-w-screen-xl flex flex-col md:flex-row z-10 relative">
-        <HeaderContent class="w-1/2" />
-        <Technologies class="w-1/2"/>
+        <HeaderContent class="w-full md:w-1/2 mb-4" />
+        <Technologies class="w-full md:w-1/2"/>
       </div>
   </header>
 </template>

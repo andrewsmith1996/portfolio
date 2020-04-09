@@ -1,8 +1,8 @@
 <template>
   <div>
     <div>
-      <div class="flex mb-16">
-        <div class="w-1/2">
+      <div class="flex flex-col md:flex-row mb-16">
+        <div class="w-full md:w-1/2">
           <h2 class="text-xl font-medium">Front-end development</h2>
           <ul class="mb-6 text-sm font-open-sans list-disc">
               <li class="mb-1"><span></span>ReactJS, Vue.js, Angular</li>
@@ -15,12 +15,12 @@
               <li class="mb-1"><span></span>Android Development (Java)</li>
           </ul>
         </div>
-        <div class="w-1/2">
+        <div class="w-full md:w-1/2">
             <LincolnHack />
         </div>
       </div>
       <div class="mb-16">
-        <div class="flex">
+        <div class="flex flex-col md:flex-row">
           <GreenstockLighting />
           <NicholsonMcBride />
         </div>

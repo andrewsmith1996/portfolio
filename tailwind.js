@@ -14,6 +14,9 @@ module.exports = {
       fontSize: {
 
       },
+      maxWidth: {
+        withPadding: '1328px'
+      },
       colors: {
         'main-blue': '#004e92',
         'light-blue': '#26D0CE'

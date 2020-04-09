@@ -1,6 +1,6 @@
 <template>
-  <div class="flex">
-    <div class="flex flex-col w-1/2">
+  <div class="flex flex-col md:flex-row">
+    <div class="flex flex-col w-full md:w-1/2">
       <ProjectTitle title="Hackbusters - Lincoln Hack 2018" githubLink="https://github.com/andrewsmith1996/HackBusters-Lincoln-Hack-2018" />
         <Technologies technologies="Socket.IO, Node.js, Express" />
       <p class="font-open-sans text-sm mb-6">My entry for <a href="https://2018.lincolnhack.org/" target="_blank">Lincoln Hack</a> - a Dambusters, RAF &amp; Lincoln themed game using web sockets to make it playable across multiple phones positioned next to each other in a row.
@@ -10,7 +10,7 @@
       <ViewGitHub githubLink="https://github.com/andrewsmith1996/HackBusters-Lincoln-Hack-2018" />
       <ProjectTecnologies class="mb-6" :technologies="['node', 'express', 'socketio', 'jquery']" />
       </div>
-      <div class="w-1/2">
+      <div class="w-full md:w-1/2">
         <img src="../../../assets/images/apps/hackbusters.png" alt="Socket.IO, Node.js and Express interactive Dambusters Game" />
       </div>
   </div>

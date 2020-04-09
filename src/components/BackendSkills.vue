@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="flex mb-16">
-      <div class="w-1/2">
+    <div class="flex flex-col md:flex-row mb-16">
+      <div class="w-full md:w-1/2">
         <h2 class="text-xl font-medium">Back-end development</h2>
         <ul class="mb-6 text-sm font-open-sans list-disc">
           <li class="mb-1"><span></span>NodeJS</li>
@@ -17,12 +17,12 @@
           <li class="mb-1"><span></span>CraftCMS, PHPmyAdmin</li>
         </ul>
       </div>
-      <div class="w-1/2">
+      <div class="w-full md:w-1/2">
           <SteveNashFashion />
       </div>
     </div>
     <div>
-      <div class="flex">
+      <div class="flex flex-col md:flex-row">
         <SimonsGroup />
         <FosterAC />
       </div>

@@ -11,7 +11,7 @@
       <GeolocationWeatherApp  class="my-20" />
       <HackbustersGame class="my-20" />  
       
-      <div class="flex">
+      <div class="flex flex-col md:flex-row">
         <div>
           <InconnectCables />
         </div>

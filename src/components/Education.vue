@@ -2,10 +2,10 @@
    <section>
     <div>
       <EducationHeader />
-      <div class="flex justify-center mb-4">
-        <YearModules class="w-1/3" :title="educationContent.year_1_title" :modules="educationContent.year_1_modules" />
-        <YearModules class="w-1/3" :title="educationContent.year_2_title" :modules="educationContent.year_2_modules" />
-        <YearModules class="w-1/3" :title="educationContent.year_3_title" :modules="educationContent.year_3_modules" />
+      <div class="flex flex-col md:flex-row justify-center mb-4">
+        <YearModules class="w-full md:w-1/3" :title="educationContent.year_1_title" :modules="educationContent.year_1_modules" />
+        <YearModules class="w-full md:w-1/3" :title="educationContent.year_2_title" :modules="educationContent.year_2_modules" />
+        <YearModules class="w-full md:w-1/3" :title="educationContent.year_3_title" :modules="educationContent.year_3_modules" />
       </div>
       <PlacementYearRow />
       </div>

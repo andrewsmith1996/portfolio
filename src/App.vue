@@ -2,15 +2,13 @@
   <div id="app" class="font-ubuntu antialiased text-white tracking-wider">
   <Header />
   <div class="gradient-wrapper flex flex-col justify-center items-center">
-    <div class="max-w-full px-8 md:max-w-screen-xl">
-      <AboutPanel class="my-8" />
-      <ProjectShowcase class="my-8"/>
-      <Skills class="my-8"/>
-      <Education class="my-8"/>
+      <AboutPanel class="my-8 max-w-full md:max-w-screen-xl" />
+      <ProjectShowcase class="my-8 max-w-full md:max-w-screen-xl"/>
+      <Skills class="my-8 max-w-full md:max-w-screen-xl"/>
+      <Education class="my-8 max-w-full md:max-w-screen-xl"/>
       <Projects class="my-8"/>
-      <Contact class="my-8"/> 
+      <Contact class="my-8 max-w-full md:max-w-screen-xl"/> 
       </div>
-  </div>
   <Footer />
 </div>
 </template>
