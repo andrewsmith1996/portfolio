@@ -1,23 +1,19 @@
 <template>
   <section>
-    <div>
-      <ProjectShowcaseHeader  class="mt-20" />
-      <Gluco  class="mb-20 mt-8" />
-      <Memories  class="my-20" />
-      <Hoptical  class="my-20" />
-      <ImageIdentifier class="my-20" />
-      <DataDashboard  class="my-20" />
-      <BloodSugarAppMagik  class="my-20" />
-      <GeolocationWeatherApp  class="my-20" />
-      <HackbustersGame class="my-20" />  
+    <div class="flex flex-col justify-center items-center">
+      <ProjectShowcaseHeader class="mt-20 max-w-full w-full md:max-w-screen-xl" />
+      <Gluco class="mb-20 mt-8 max-w-full w-full md:max-w-withPadding" />
+      <Memories  class="my-20 md:max-w-withPadding" />
+      <Hoptical  class="my-20 md:max-w-withPadding" />
+      <ImageIdentifier class="my-20 md:max-w-withPadding" />
+      <DataDashboard  class="my-20 md:max-w-withPadding" />
+      <BloodSugarAppMagik  class="my-20 md:max-w-withPadding" />
+      <GeolocationWeatherApp  class="my-20 md:max-w-withPadding" />
+      <HackbustersGame class="my-20 md:max-w-withPadding" />  
       
-      <div class="flex flex-col md:flex-row">
-        <div>
-          <InconnectCables />
-        </div>
-        <div>
-          <EspressoDesign />
-        </div>
+      <div class="flex flex-col md:flex-row max-w-full w-full md:max-w-withPadding">
+        <InconnectCables />
+        <EspressoDesign />
       </div>
     </div>
   </section>

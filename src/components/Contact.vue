@@ -2,7 +2,7 @@
 
 <template>
   <section>
-    <div class="flex flex-col">
+    <div class="flex flex-col w-full max-w-full md:max-w-screen-xl">
       <h2 class="text-3xl font-medium">Say hello</h2> 
       <p class="text-sm mb-4">Get in touch</p>
       <SocialLinks class="mb-4"/>

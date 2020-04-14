@@ -1,153 +1,24 @@
 <template>
    <section>
-        <div class="mb-8 md:max-w-screen-xl">
-            <h2 class="text-3xl font-medium">Projects &amp; Extra Curricular</h2>
-            <p class="text-sm font-open-sans text-gray-400">What have I done?</p>
-        </div>
+       <div class="flex flex-col justify-center items-center">
+        <ProjectHeader class="mb-8 w-full max-w-full md:max-w-screen-xl" />
         <div class="flex flex-col md:flex-row flex-wrap max-w-full md:max-w-withPadding">
-            <ProjectCard :large="true" title="Industrial Placement year" image=../assets/images/projects/diabetes-group.png" description="Year in industry creating websites and online software at <a href="https://cursor.co.uk" target="_blank">Cursor</a> for customers and clients across a broad range of industries. Helpdesk technical support, designing front-end wireframes and visuals and general software development processes. Involved in client meetings, working closely with professional clients and participating in R&amp;D projects" dates="2017 - 2018"/>
+            <ProjectCard :large="true" title="Industrial Placement year" image="diabetes-group.png" description="Year in industry creating websites and online software at Cursor for customers and clients across a broad range of industries. Helpdesk technical support, designing front-end wireframes and visuals and general software development processes. Involved in client meetings, working closely with professional clients and participating in R&amp;D projects" dates="2017 - 2018"/>
             <ProjectCard :large="true" title="Founder &amp; President of the UoL Diabetes Group" description="Founded &amp; President of the University of Lincoln Diabetes Group. Maintaining responsibilities, organisation, leadership skills, delegating roles and communication. Organised events, fundraisers and liased with resarchers regarding research projects." dates="2015 - 2017"/>
-            <ProjectCard :large="true" title="Google Cloud Platform Certification" image="./assets/images/projects/google_cloud.png" description="Achieved the official Google Cloud Platform Fundamentals: Core Infrastructure Certficiation. <br>Click <a href="https://www.coursera.org/account/accomplishments/verify/YLLAVXGRLRBG">here</a> to view certification." dates="2019"/>
-            <ProjectCard :large="false" title="Microsoft Technology Associate" description="" dates=""/>
-            <ProjectCard :large="false" title="" description="" dates=""/>
-            <ProjectCard :large="false" title="" description="" dates=""/>
-            <ProjectCard :large="false" title="" description="" dates=""/>
-            <ProjectCard :large="false" title="" description="" dates=""/>
-            <ProjectCard :large="false" title="" description="" dates=""/>
-            <ProjectCard :large="false" title="" description="" dates=""/>
-            <ProjectCard :large="false" title="" description="" dates=""/>
-            <ProjectCard :large="false" title="" description="" dates=""/>
-            <ProjectCard :large="false" title="" description="" dates=""/>
-                        
-
-                <div class="p-2 w-full  md:w-1/4">
-            <div class="project-card h-full bg-fixed justify-between bg-main-blue rounded-card flex flex-col p-4">
-                    <div class="relative z-10  w-full  flex-col">
-                        <h3 class="text-xl font-semibold mb-2 font-ubuntu"></h3>
-                        <p class="text-sm mb-2 font-open-sans">Officially certified as a Microsoft Technology Associate in HTML5 Application Development Fundamentals.</p>
-                        <img class="w-24" src="../assets/images/projects/mta-logo.png" alt="MTA Exam" />
-                        <span class="text-sm font-medium font-open-sans text-center">2019</span>
-                    </div>
-                </div>
-            </div>
-
-                <div class="p-2 w-full  md:w-1/4">
-            <div class="project-card h-full bg-fixed justify-between bg-main-blue rounded-card flex flex-col p-4">
-                    <div class="relative z-10  w-full  flex-col">
-                        <h3 class="text-xl font-semibold mb-2 font-ubuntu">Computer Science Course Representative</h3>
-                        <p class="text-sm mb-2 font-open-sans">Course Representative for Computer Science at University. Ability to communicate well, plan well and manage time successfully.</p>
-                        <img class="w-24" src="../assets/images/projects/uni-lincoln.png" alt="MTA Exam" />
-                        <span class="text-sm font-medium font-open-sans text-center">2015 - 2016</span>
-                    </div>
-                </div>
-            </div>
-            
-                <div class="p-2 w-full  md:w-1/4">
-            <div class="project-card h-full bg-fixed justify-between bg-main-blue rounded-card flex flex-col p-4">
-                    <div class="relative z-10  w-full  flex-col">
-                        <h3 class="text-xl font-semibold mb-2 font-ubuntu">ICT Service Desk Technician</h3>
-                        <p class="text-sm mb-2 font-open-sans">Solving problems with computers and mobile devices across multiple operating systems and give out technical advice.</p>
-                        <img class="w-24" src="../assets/images/projects/uni-lincoln.png" alt="MTA Exam" />
-                        <span class="text-sm font-medium font-open-sans text-center">2015 - 2017, 2018 - 2019</span>
-                    </div>
-                </div>
-            </div>
-        
-                <div class="p-2 w-full  md:w-1/4">
-            <div class="project-card h-full bg-fixed justify-between bg-main-blue rounded-card flex flex-col p-4">
-                    <div class="relative z-10  w-full  flex-col">
-                        <h3 class="text-xl font-semibold mb-2 font-ubuntu">School of Computer Science Student Ambassador</h3>
-                        <p class="text-sm mb-2 font-open-sans">Supporting events such as Open Days, Applicant Open Days, School liaison events and other odd jobs around the School.</p>
-                        <img class="w-24" src="../assets/images/projects/uni-lincoln.png" alt="MTA Exam" />
-                        <span class="text-sm font-medium font-open-sans text-center">2015 - 2017</span>
-                    </div>
-                </div>
-            </div>
-    
-                <div class="p-2 w-full  md:w-1/4">
-            <div class="project-card h-full bg-fixed justify-between bg-main-blue rounded-card flex flex-col p-4">
-                    <div class="relative z-10  w-full  flex-col">
-                        <h3 class="text-xl font-semibold mb-2 font-ubuntu">The Lincoln Award</h3>
-                        <p class="text-sm mb-2 font-open-sans">I have completed the Lincoln Award; the University of Lincoln’s standalone Employability award.</p>
-                        <img class="w-24" src="../assets/images/projects/lincoln_award.png" alt="MTA Exam" />
-                        <span class="text-sm font-medium font-open-sans text-center">2016</span>
-                    </div>
-                </div>
-            </div>
-
-                <div class="p-2 w-full  md:w-1/4">
-            <div class="project-card h-full bg-fixed justify-between bg-main-blue rounded-card flex flex-col p-4">
-                    <div class="relative z-10  w-full  flex-col">
-                        <h3 class="text-xl font-semibold mb-2 font-ubuntu">IT Tutor (Volunteer)</h3>
-                        <p class="text-sm mb-2 font-open-sans">Volunteer at the Long Eaton 50+ Forum to teach 50+ year olds a better understanding in using their computing and mobile devices.</p>
-                        <img class="w-24" src="../assets/images/projects/50-plus-forum.png" alt="MTA Exam" />
-                        <span class="text-sm font-medium font-open-sans text-center">2015 - present</span>
-                    </div>
-                </div>
-            </div>
-        
-                <div class="p-2 w-full  md:w-1/4">
-            <div class="project-card h-full bg-fixed justify-between bg-main-blue rounded-card flex flex-col p-4">
-                    <div class="relative z-10  w-full  flex-col">
-                        <h3 class="text-xl font-semibold mb-2 font-ubuntu">School of Computer Science Interview Panel</h3>
-                        <p class="text-sm mb-2 font-open-sans">Questioned candidates in the recruitment of new lecturers and researchers. Communicated feedback to the Head of School.</p>
-                        <img class="w-24" src="../assets/images/projects/uni-lincoln.png" alt="MTA Exam" />
-                        <span class="text-sm font-medium font-open-sans text-center">2017</span>
-                    </div>
-                </div>
-            </div>
-        
-                <div class="p-2 w-full  md:w-1/4">
-            <div class="project-card h-full bg-fixed justify-between bg-main-blue rounded-card flex flex-col p-4">
-                    <div class="relative z-10  w-full  flex-col">
-                        <h3 class="text-xl font-semibold mb-2 font-ubuntu">AOL London Work Placement </h3>
-                        <p class="text-sm mb-2 font-open-sans">Placement in AOL's specialised web and software department to gain valuable advice and experience from experts within a multinational company. Shadowed teams of developers and designers mainly working with JavaScript technologies. Also given opportunity to attend meetings on advertising based solutions.</p>
-                        <img class="w-24" src="../assets/images/projects/aol.png" alt="MTA Exam" />
-                        <span class="text-sm font-medium font-open-sans text-center">2014</span>
-                    </div>
-                </div>
-            </div>
-        
-                <div class="p-2 w-full  md:w-1/4">
-            <div class="project-card h-full bg-fixed justify-between bg-main-blue rounded-card flex flex-col p-4">
-                    <div class="relative z-10  w-full  flex-col">
-                        <h3 class="text-xl font-semibold mb-2 font-ubuntu">NHS Practice IT Consultant</h3>
-                        <p class="text-sm mb-2 font-open-sans">Implemented media solutions for a professional inspection and solving general IT problems within the practice.</p>
-                        <img class="w-24" src="../assets/images/projects/nhs.png" alt="MTA Exam" />
-                        <span class="text-sm font-medium font-open-sans text-center">2015</span>
-                    </div>
-                </div>
-            </div>
-        
-                <div class="p-2 w-full  md:w-1/4">
-            <div class="project-card h-full bg-fixed justify-between bg-main-blue rounded-card flex flex-col p-4">
-                    <div class="relative z-10  w-full  flex-col">
-                        <h3 class="text-xl font-semibold mb-2 font-ubuntu">BCS work placement</h3>
-                        <p class="text-sm mb-2 font-open-sans">Placement in local computer repair shop. Allowed me to understand working professionally and give good customer service.</p>
-                        <span class="text-sm font-medium font-open-sans text-center">2014</span>
-                    </div>
-                </div>
-            </div>
-        
-                <div class="p-2 w-full  md:w-1/4">
-            <div class="project-card h-full bg-fixed justify-between bg-main-blue rounded-card flex flex-col p-4">
-                    <div class="relative z-10  w-full  flex-col">
-                        <h3 class="text-xl font-semibold mb-2 font-ubuntu">Chairman of Social Events</h3>
-                        <p class="text-sm mb-2 font-open-sans">Vice Chairman of Social Events in the Sixth Form Council, eventually becoming the Chairman.</p>
-                        <span class="text-sm font-medium font-open-sans text-center">2013</span>
-                    </div>
-                </div>
-            </div>
-        
-                <div class="p-2 w-full  md:w-1/4">
-            <div class="project-card h-full bg-fixed justify-between bg-main-blue rounded-card flex flex-col p-4">
-                    <div class="relative z-10  w-full  flex-col">
-                        <h3 class="text-xl font-semibold mb-2 font-ubuntu">2:1 in Brilliant Club scheme</h3>
-                        <p class="text-sm mb-2 font-open-sans">2:1 in the Brilliant Club programme where I attended tutorials and completed a University assignment whilst at Sixth Form.</p>
-                        <span class="text-sm font-medium font-open-sans text-center">2013</span>
-                    </div>
-                </div>
-            </div>
+            <ProjectCard :large="true" title="Google Cloud Platform Certification" image="google_cloud.png" description="Achieved the official Google Cloud Platform Fundamentals: Core Infrastructure Certficiation." dates="2019"/>
+            <ProjectCard :large="false" title="Microsoft Technology Associate" image="mta-logo.png" description="Officially certified as a Microsoft Technology Associate in HTML5 Application Development Fundamentals." dates="2019"/>
+            <ProjectCard :large="false" title="Computer Science Course Representative" image="uni-lincoln.png" description="Course Representative for Computer Science at University. Ability to communicate well, plan well and manage time successfully." dates="2015 - 2016"/>
+            <ProjectCard :large="false" title="ICT Service Desk Technician" image="uni-lincoln.png" description="Solving problems with computers and mobile devices across multiple operating systems and give out technical advice." dates="2015 - 2017, 2018 - 2019"/>
+            <ProjectCard :large="false" title="School of Computer Science Student Ambassador" image="uni-lincoln.png" description="Supporting events such as Open Days, Applicant Open Days, School liaison events and other odd jobs around the School." dates="2015 - 2017"/>
+            <ProjectCard :large="false" title="The Lincoln Award" image="lincoln_award.png" description="I have completed the Lincoln Award; the University of Lincoln’s standalone Employability award." dates="2016"/>
+            <ProjectCard :large="false" title="IT Tutor (Volunteer)" image="50-plus-forum.png" description="Volunteer at the Long Eaton 50+ Forum to teach 50+ year olds a better understanding in using their computing and mobile devices." dates="2015 - present"/>
+            <ProjectCard :large="false" title="School of Computer Science Interview Panel" image="uni-lincoln.png" description="Questioned candidates in the recruitment of new lecturers and researchers. Communicated feedback to the Head of School" dates="2017"/>
+            <ProjectCard :large="false" title="AOL London Work Placement" image="aol.png" description="Placement in AOL's specialised web and software department to gain valuable advice and experience from experts within a multinational company. Shadowed teams of developers and designers mainly working with JavaScript technologies. Also given opportunity to attend meetings on advertising based solutions." dates="2014"/>
+            <ProjectCard :large="false" title="NHS Practice IT Consultant" image="nhs.png" description="Implemented media solutions for a professional inspection and solving general IT problems within the practice." dates="2015"/>
+            <ProjectCard :large="false" title="BCS work placement" image="" description="Placement in local computer repair shop. Allowed me to understand working professionally and give good customer service." dates="2014"/>
+            <ProjectCard :large="false" title="Chairman of Social Events" image="" description="Vice Chairman of Social Events in the Sixth Form Council, eventually becoming the Chairman." dates="2013"/>
+            <ProjectCard :large="false" title="2:1 in Brilliant Club scheme" image="" description="2:1 in the Brilliant Club programme where I attended tutorials and completed a University assignment whilst at Sixth Form." dates="2013"/>
+        </div>
         </div>
   </section>
 </template>
@@ -155,10 +26,11 @@
 <script lang="ts">
 import { Component, Vue, Prop, Mixins } from "vue-property-decorator";
 import ProjectCard from '@/components/project-card/ProjectCard.vue';
-
+import ProjectHeader from '@/components/project-card/ProjectHeader.vue';
 @Component({
     components: {
-        ProjectCard
+        ProjectCard,
+        ProjectHeader
     }
 })
 export default class Projects extends Vue {

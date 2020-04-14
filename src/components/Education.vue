@@ -1,5 +1,5 @@
 <template>
-   <section>
+   <section class="max-w-full w-full md:max-w-screen-xl">
     <div>
       <EducationHeader />
       <div class="flex flex-col md:flex-row justify-center mb-4">

@@ -15,7 +15,7 @@ module.exports = {
 
       },
       maxWidth: {
-        withPadding: '1328px'
+        withPadding: '1312px'
       },
       colors: {
         'main-blue': '#004e92',

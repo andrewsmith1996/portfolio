@@ -1,9 +1,9 @@
 <template>
   <section>
     <div>
-      <SkillsHeader />
-      <FrontendSkills />
-      <BackendSkills />
+      <SkillsHeader class="max-w-full w-full md:max-w-screen-xl" />
+      <FrontendSkills class="max-w-full w-full md:max-w-screen-xl"/>
+      <BackendSkills class="max-w-full w-full md:max-w-screen-xl" />
     </div>
   </section>
 </template>

@@ -3,8 +3,8 @@
 
 <template>
   <div class="flex flex-col">
-    <div class="flex flex-col md:flex-row">
-      <div class="w-full md:w-2/3">
+    <div class="flex flex-col md:flex-row mb-8">
+      <div class="w-full md:w-1/2 px-4">
         <ProjectTitle title="Gluco - AI &amp; Machine Learning" githubLink="https://github.com/andrewsmith1996/gluco-api-node" />
         <Technologies technologies="Ionic 3, Node.js, MongoDB, Express, Angular" />
         <p class="font-open-sans text-sm mb-6">
@@ -16,17 +16,17 @@
         </p>
         <ProjectTecnologies class="mb-6" :technologies="['ionic', 'typescript', 'mongo', 'node', 'express', 'angular', 'sass', 'heroku']" />
       </div>
-      <div class="w-full md:w-1/3 flex justify-center">
-        <img src="../../../assets/images/apps/gluco_one.png" class="w-1/2" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />  
-        <img src="../../../assets/images/apps/gluco_two.png" class="w-1/2" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" /> 
+      <div class="w-full md:w-1/2 flex flex-col md:flex-row justify-center px-2">
+        <img src="../../../assets/images/apps/gluco_one.png" class="w-full md:w-1/2 px-2" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />  
+        <img src="../../../assets/images/apps/gluco_two.png" class="w-full md:w-1/2 px-2" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" /> 
       </div>
     </div>
     <div>
-      <div class="flex justify-center">
-        <img src="../../../assets/images/apps/gluco_four.png" class="w-1/4" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />
-        <img src="../../../assets/images/apps/gluco_three.png" class="w-1/4" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />
-        <img src="../../../assets/images/apps/gluco_five.png" class="w-1/4" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />
-        <img src="../../../assets/images/apps/gluco_six.png" class="w-1/4" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />
+      <div class="flex flex-col md:flex-row justify-center">
+        <img src="../../../assets/images/apps/gluco_four.png" class="w-full md:w-1/4 px-4" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />
+        <img src="../../../assets/images/apps/gluco_three.png" class="w-full md:w-1/4 px-4" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />
+        <img src="../../../assets/images/apps/gluco_five.png" class="w-full md:w-1/4 px-4" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />
+        <img src="../../../assets/images/apps/gluco_six.png" class="w-full md:w-1/4 px-4" alt="Gluco App built in Ionic and API built in Node.js, MongoDB and Express" />
       </div>
     </div>
   </div>
@@ -52,3 +52,4 @@ export default class Gluco extends Vue {
 <style lang="scss">
 
 </style>
+
