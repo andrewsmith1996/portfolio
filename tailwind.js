@@ -15,7 +15,8 @@ module.exports = {
 
       },
       maxWidth: {
-        withPadding: '1312px'
+        withPadding: '1312px',
+        blogPreview: '1232px'
       },
       colors: {
         'main-blue': '#004e92',

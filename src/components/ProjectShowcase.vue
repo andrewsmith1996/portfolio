@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="flex flex-col justify-center items-center">
-      <ProjectShowcaseHeader class="mt-20 max-w-full w-full md:max-w-screen-xl" />
+      <ProjectShowcaseHeader class="max-w-full w-full md:max-w-withPadding-xl px-4" />
       <Gluco class="mb-20 mt-8 max-w-full w-full md:max-w-withPadding" />
       <Memories  class="my-20 md:max-w-withPadding" />
       <Hoptical  class="my-20 md:max-w-withPadding" />

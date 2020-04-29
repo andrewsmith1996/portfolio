@@ -18,10 +18,10 @@
             </ul> 
             <ProjectTecnologies class="mb-6" :technologies="['android', 'firebase', 'java']" />
         </div>
-       <div class="flex w-full md:w-3/4 justify-center px-4">
-            <img src="../../../assets/images/apps/hoptical-one.png" class="w-full md:w-1/3 px-1" alt="Hoptical Craft Beer Tracking app built in Android" />
-            <img src="../../../assets/images/apps/hoptical-three.png" class="w-full md:w-1/3 px-1" alt="Hoptical Craft Beer Tracking app built in Android" />
-            <img src="../../../assets/images/apps/hoptical-two.png" class="w-full md:w-1/3 px-1" alt="Hoptical Craft Beer Tracking app built in Android" />
+       <div class="flex w-full md:w-3/4 flex-col md:flex-row justify-center px-4 items-center">
+            <img src="../../../assets/images/apps/hoptical-one.png" class="w-full md:w-1/3 px-1 mb-8 sm:mb-0" alt="Hoptical Craft Beer Tracking app built in Android" />
+            <img src="../../../assets/images/apps/hoptical-three.png" class="w-full md:w-1/3 px-1 mb-8 sm:mb-0" alt="Hoptical Craft Beer Tracking app built in Android" />
+            <img src="../../../assets/images/apps/hoptical-two.png" class="w-full md:w-1/3 px-1 mb-8 sm:mb-0" alt="Hoptical Craft Beer Tracking app built in Android" />
         </div>
     </div>
 </template>

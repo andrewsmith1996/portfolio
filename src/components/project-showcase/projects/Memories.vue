@@ -19,10 +19,10 @@
       </ul> 
        <ProjectTecnologies class="mb-6" :technologies="['ionic', 'typescript', 'firebase', 'angular', 'googlemaps', 'cordova']" />
     </div>
-    <div class="flex w-full md:w-3/4 justify-center px-4">
-      <img class="w-full md:w-1/3 px-3" src="../../../assets/images/apps/memories_one.png" alt="Memories app built in Ionic 4" /> 
-      <img class="w-full md:w-1/3 px-3" src="../../../assets/images/apps/memories_two.png" alt="Memories app built in Ionic 4" /> 
-      <img class="w-full md:w-1/3 px-3" src="../../../assets/images/apps/memories_four.png" alt="Memories app built in Ionic 4" /> 
+    <div class="flex w-full flex-col md:flex-row md:w-3/4 justify-center px-4 items-center">
+      <img class="w-full md:w-1/3 px-3 mb-8 sm:mb-0" src="../../../assets/images/apps/memories_one.png" alt="Memories app built in Ionic 4" /> 
+      <img class="w-full md:w-1/3 px-3 mb-8 sm:mb-0" src="../../../assets/images/apps/memories_two.png" alt="Memories app built in Ionic 4" /> 
+      <img class="w-full md:w-1/3 px-3 mb-8 sm:mb-0" src="../../../assets/images/apps/memories_four.png" alt="Memories app built in Ionic 4" /> 
     </div>
   </div>
 

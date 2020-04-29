@@ -10,7 +10,7 @@
       <ViewGitHub githubLink="https://github.com/andrewsmith1996/HackBusters-Lincoln-Hack-2018" />
       <ProjectTecnologies class="mb-6" :technologies="['node', 'express', 'socketio', 'jquery']" />
       </div>
-      <div class="w-full md:w-1/2 px-4">
+      <div class="w-full md:w-1/2 px-4 items-center">
         <img src="../../../assets/images/apps/hackbusters.png" alt="Socket.IO, Node.js and Express interactive Dambusters Game" />
       </div>
   </div>

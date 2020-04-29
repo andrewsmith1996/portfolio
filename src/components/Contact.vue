@@ -6,8 +6,8 @@
       <h2 class="text-3xl font-medium">Say hello</h2> 
       <p class="text-sm mb-4">Get in touch</p>
       <SocialLinks class="mb-4"/>
-      <BlogPreview />
     </div>
+     <BlogPreview class="w-full md:max-w-blogPreview"/>
   </section>
 </template>
 

@@ -45,7 +45,7 @@ export default class BlogPreview extends Vue {
     blogPosts: Array<BlogPreviewInterface> = [];
 
   async mounted() {
-    const characterLimit: number = 400;
+    const characterLimit: number = 300;
      try {
         let response = await axios.get('https://public-api.wordpress.com/rest/v1.1/sites/117679029/posts/');
         this.blogPosts = response.data.posts.map((post: BlogAPIResponseInterface): BlogPreviewInterface => {
