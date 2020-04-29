@@ -4,7 +4,7 @@
   <div class="gradient-wrapper flex flex-col justify-center items-center">
       <AboutPanel class="my-8 w-full max-w-full md:max-w-withPadding" />
       <ProjectShowcase class="my-8"/>
-      <Skills class="my-8"/>
+      <Skills class="my-8 w-full max-w-full md:max-w-screen-xl"/>
       <Education class="my-8"/>
       <Projects class="my-8"/>
       <Contact class="my-8 w-full max-w-full md:max-w-screen-xl"/> 

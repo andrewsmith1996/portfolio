@@ -15,18 +15,9 @@
               <li class="mb-1"><span></span>Android Development (Java)</li>
           </ul>
         </div>
-        <div class="w-full md:w-1/2">
-            <LincolnHack />
-        </div>
-      </div>
-      <div class="mb-16">
-        <div class="flex flex-col md:flex-row">
-          <GreenstockLighting />
-          <NicholsonMcBride />
-        </div>
       </div>
     </div>
-    </div>
+  </div>
 </template>
 
 <script lang="ts">

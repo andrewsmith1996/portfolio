@@ -1,7 +1,7 @@
 
 
 <template>
-  <a :href="githubLink" target="_blank" class="font-ubuntu text-base mb-6 font-medium">View on GitHub</a>
+  <a :href="githubLink" target="_blank" class="font-ubuntu text-base mb-6 font-medium underline">View on GitHub</a>
 </template>
 
 <script lang="ts">

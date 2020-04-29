@@ -4,11 +4,15 @@
   <div class="p-2 w-full" :class="{'md:w-1/3': large, 'md:w-1/4': !large}">
     <div class="project-card h-full flex-col bg-fixed bg-main-blue rounded-card flex flex-col p-4">
       <div class="flex flex-col h-full justify-between">
-      <div class="relative z-10 flex flex-col ">
-        <h3 class="text-xl font-semibold mb-2 font-ubuntu">{{ title }}</h3>
-        <p class="text-sm mb-2 font-open-sans">{{ description }}</p>
-          <img v-if="image" class="w-24" :src="`../../assets/images/projects/${image}`" alt="MTA Exam" />
-      </div>
+        <div class="relative z-10 flex flex-col h-full mb-4 justify-between">
+          <div class="mb-4">
+            <h3 class="text-xl font-semibold mb-2 font-ubuntu">{{ title }}</h3>
+            <p class="text-sm mb-2 font-open-sans">{{ description }}</p>
+          </div>
+          <div class="flex justify-center">
+            <img v-if="image" class="w-24" :src="require(`@/assets/images/projects/${this.image}`)"  alt="MTA Exam" />
+          </div>
+        </div>
         <span class="relative z-10 font-bold text-center">{{ dates }}</span>
       </div>
     </div>

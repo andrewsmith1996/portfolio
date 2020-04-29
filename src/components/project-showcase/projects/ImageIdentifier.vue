@@ -15,7 +15,7 @@
         <ProjectTecnologies class="mb-6" :technologies="['react', 'react-native']" />
     </div>
 
-    <div class="flex flex-col md:flex-col w-full md:w-3/4 justify-center px-4">
+    <div class="flex flex-col md:flex-row w-full md:w-3/4 justify-center px-4">
         <img src="../../../assets/images/apps/image-recognition-react-native-1.png" class="w-full md:w-1/3 px-2" alt="React Native image recognition app" />
         <img src="../../../assets/images/apps/image-recognition-react-native-2.png" class="w-full md:w-1/3 px-2" alt="React Native image recognition app" />
         <img src="../../../assets/images/apps/image-recognition-react-native-3.png" class="w-full md:w-1/3 px-2" alt="React Native image recognition app" />

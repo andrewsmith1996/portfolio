@@ -21,12 +21,6 @@
           <SteveNashFashion />
       </div>
     </div>
-    <div>
-      <div class="flex flex-col md:flex-row">
-        <SimonsGroup />
-        <FosterAC />
-      </div>
-    </div>
   </div>
 </template>
 

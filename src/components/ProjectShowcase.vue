@@ -10,11 +10,6 @@
       <BloodSugarAppMagik  class="my-20 md:max-w-withPadding" />
       <GeolocationWeatherApp  class="my-20 md:max-w-withPadding" />
       <HackbustersGame class="my-20 md:max-w-withPadding" />  
-      
-      <div class="flex flex-col md:flex-row max-w-full w-full md:max-w-withPadding">
-        <InconnectCables />
-        <EspressoDesign />
-      </div>
     </div>
   </section>
 </template>
