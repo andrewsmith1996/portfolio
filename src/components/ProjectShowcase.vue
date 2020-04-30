@@ -24,9 +24,6 @@ import ImageIdentifier from "./project-showcase/projects/ImageIdentifier.vue";
 import BloodSugarAppMagik from "./project-showcase/projects/BloodSugarAppMagik.vue";
 import DataDashboard from "./project-showcase/projects/DataDashboard.vue";
 import GeolocationWeatherApp from "./project-showcase/projects/GeolocationWeatherApp.vue";
-import HackbustersGame from "./project-showcase/projects/HackbustersGame.vue";
-import InconnectCables from "./project-showcase/websites/InconnectCables.vue";
-import EspressoDesign from "./project-showcase/websites/EspressoDesign.vue";
 
 
 @Component({
@@ -39,9 +36,6 @@ import EspressoDesign from "./project-showcase/websites/EspressoDesign.vue";
     BloodSugarAppMagik,
     DataDashboard,
     GeolocationWeatherApp,
-    HackbustersGame,
-    InconnectCables,
-    EspressoDesign
   }
 })
 export default class ProjectShowcase extends Vue {
