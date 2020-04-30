@@ -24,7 +24,7 @@ import ImageIdentifier from "./project-showcase/projects/ImageIdentifier.vue";
 import BloodSugarAppMagik from "./project-showcase/projects/BloodSugarAppMagik.vue";
 import DataDashboard from "./project-showcase/projects/DataDashboard.vue";
 import GeolocationWeatherApp from "./project-showcase/projects/GeolocationWeatherApp.vue";
-
+import HackbustersGame from "./project-showcase/projects/HackbustersGame.vue";
 
 @Component({
   components: {
@@ -36,6 +36,7 @@ import GeolocationWeatherApp from "./project-showcase/projects/GeolocationWeathe
     BloodSugarAppMagik,
     DataDashboard,
     GeolocationWeatherApp,
+    HackbustersGame
   }
 })
 export default class ProjectShowcase extends Vue {
