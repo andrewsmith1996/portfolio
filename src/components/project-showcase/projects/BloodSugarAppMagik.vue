@@ -7,10 +7,10 @@
                 giving graph illustrations and a practical representation of blood sugar results over time.</p>
         <ProjectTecnologies class="mb-6" :technologies="['ionic', 'angular', 'typescript', 'sass']" />
         </div>
-           <div class="flex w-full flex-col md:flex-row lg:w-3/4 justify-center items-center">
-            <img src="../../../assets/images/apps/bloodsugarappmagik-one.png" class="w-full md:w-1/3 px-4 mb-8 sm:mb-0" alt="Blood Sugar App Magik built at Hack24" />
-            <img src="../../../assets/images/apps/bloodsugarappmagik-two.png" class="w-full md:w-1/3 px-4 mb-8 sm:mb-0" alt="Blood Sugar App Magik built at Hack24" />
-            <img src="../../../assets/images/apps/bloodsugarappmagik-three.png" class="w-full md:w-1/3 px-4 mb-8 sm:mb-0" alt="Blood Sugar App Magik built at Hack24" />
+           <div class="flex w-full flex-col flex-wrap sm:flex-row lg:w-3/4 justify-center items-center">
+            <img src="../../../assets/images/apps/bloodsugarappmagik-one.png" class="w-full sm:w-1/2 md:w-2/5 lg:w-1/3 px-4 mb-8 lg:mb-0" alt="Blood Sugar App Magik built at Hack24" />
+            <img src="../../../assets/images/apps/bloodsugarappmagik-two.png" class="w-full sm:w-1/2 md:w-2/5 lg:w-1/3 px-4 mb-8 lg:mb-0" alt="Blood Sugar App Magik built at Hack24" />
+            <img src="../../../assets/images/apps/bloodsugarappmagik-three.png" class="w-full sm:w-1/2 md:w-2/5 lg:w-1/3 px-4 mb-8 lg:mb-0" alt="Blood Sugar App Magik built at Hack24" />
         </div>
     </div>
 </template>

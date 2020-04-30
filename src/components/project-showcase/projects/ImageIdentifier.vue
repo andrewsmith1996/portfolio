@@ -15,10 +15,10 @@
         <ProjectTecnologies class="mb-6" :technologies="['react', 'react-native']" />
     </div>
 
-    <div class="flex flex-col md:flex-row w-full lg:w-3/4 justify-center items-center">
-        <img src="../../../assets/images/apps/image-recognition-react-native-1.png" class="w-full md:w-1/3 px-4 mb-8 sm:mb-0" alt="React Native image recognition app" />
-        <img src="../../../assets/images/apps/image-recognition-react-native-2.png" class="w-full md:w-1/3 px-4 mb-8 sm:mb-0" alt="React Native image recognition app" />
-        <img src="../../../assets/images/apps/image-recognition-react-native-3.png" class="w-full md:w-1/3 px-4 mb-8 sm:mb-0" alt="React Native image recognition app" />
+    <div class="flex w-full flex-col flex-wrap sm:flex-row lg:w-3/4 justify-center items-center">
+        <img src="../../../assets/images/apps/image-recognition-react-native-1.png" class="w-full sm:w-1/2 md:w-2/5 lg:w-1/3 px-4 mb-8 lg:mb-0" alt="React Native image recognition app" />
+        <img src="../../../assets/images/apps/image-recognition-react-native-2.png" class="w-full sm:w-1/2 md:w-2/5 lg:w-1/3 px-4 mb-8 lg:mb-0" alt="React Native image recognition app" />
+        <img src="../../../assets/images/apps/image-recognition-react-native-3.png" class="w-full sm:w-1/2 md:w-2/5 lg:w-1/3 px-4 mb-8 lg:mb-0" alt="React Native image recognition app" />
     </div>
   </div>
 </template>

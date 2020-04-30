@@ -32,7 +32,7 @@ export default class Education extends Vue {
       "result": "1st"
     },
     {
-      "title": "Algorithms &amp; Complexity",
+      "title": "Algorithms Complexity",
       "result": "2:1"
     },
     {
