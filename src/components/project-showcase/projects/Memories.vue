@@ -43,18 +43,11 @@
     </div>
   </div>
 </template>
-
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import ProjectTecnologies from '../../technologies/ProjectTechnologies.vue';
 import Technologies from '../elements/TechnologyList.vue';
 import ProjectTitle from '../elements/Title.vue';
-@Component({
-  components: {
-    ProjectTecnologies,
-    Technologies,
-    ProjectTitle
-  }
-})
+@Component({ components: { ProjectTecnologies, Technologies, ProjectTitle } })
 export default class Memories extends Vue {}
 </script>
