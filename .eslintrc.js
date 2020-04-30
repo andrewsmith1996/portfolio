@@ -8,7 +8,7 @@ module.exports = {
         }
     },
     plugins: ['@typescript-eslint'],
-    extends: ['prettier', '@nuxtjs/eslint-config-typescript', 'eslint:recommended'],
+    extends: ['prettier', '@vuejs', '@vuejs/eslint-config-typescript', 'eslint:recommended'],
     rules: {
         'space-before-function-paren': ['error', 'never'],
         'vue/singleline-html-element-content-newline': 'off',
