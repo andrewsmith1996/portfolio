@@ -1,5 +1,3 @@
-
-
 <template>
   <div class="flex flex-col justify-center items-center">
     <h3 class="text-center text-xl text-main-blue"><strong>Industrial placement year</strong></h3>
@@ -9,14 +7,8 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue, Prop, Mixins } from "vue-property-decorator";
+import { Component, Vue } from 'vue-property-decorator';
 
 @Component
-export default class PlacementYearRow extends Vue {
-
-}
+export default class PlacementYearRow extends Vue {}
 </script>
-
-<style lang="scss">
-
-</style>

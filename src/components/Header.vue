@@ -1,16 +1,18 @@
 <template>
   <header class="header flex justify-center items-center pt-24 pb-20">
-    <div class="px-8 w-full max-w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl flex flex-col lg:flex-row z-10 relative">
-        <HeaderContent class="w-full lg:w-1/2 mb-4" />
-        <Technologies class="w-full lg:w-1/2"/>
-      </div>
+    <div
+      class="px-8 w-full max-w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl flex flex-col lg:flex-row z-10 relative"
+    >
+      <HeaderContent class="w-full lg:w-1/2 mb-4" />
+      <Technologies class="w-full lg:w-1/2" />
+    </div>
   </header>
 </template>
 
 <script lang="ts">
-import { Component, Vue, Prop, Mixins } from "vue-property-decorator";
-import Technologies from "./technologies/Technologies.vue";
-import HeaderContent from "./header/HeaderContent.vue";
+import { Component, Vue } from 'vue-property-decorator';
+import Technologies from './technologies/Technologies.vue';
+import HeaderContent from './header/HeaderContent.vue';
 
 @Component({
   components: {
@@ -18,11 +20,5 @@ import HeaderContent from "./header/HeaderContent.vue";
     HeaderContent
   }
 })
-export default class Header extends Vue {
-  globalContent!: {};
-}
+export default class Header extends Vue {}
 </script>
-
-<style lang="scss">
-
-</style>

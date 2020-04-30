@@ -40,18 +40,12 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue, Prop, Mixins } from "vue-property-decorator";
+import { Component, Vue } from 'vue-property-decorator';
 import Skill from '@/components/skills/Skill.vue';
 @Component({
   components: {
     Skill
   }
 })
-export default class Skills extends Vue {
-  
-}
+export default class Skills extends Vue {}
 </script>
-
-<style lang="scss">
-
-</style>

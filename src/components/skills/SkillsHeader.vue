@@ -1,4 +1,3 @@
-
 <template>
   <div class="mb-8">
     <h2 class="text-3xl font-medium">Skills</h2>
@@ -7,14 +6,8 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue, Prop, Mixins } from "vue-property-decorator";
+import { Component, Vue } from 'vue-property-decorator';
 
 @Component
-export default class SkillsHeader extends Vue {
-
-}
+export default class SkillsHeader extends Vue {}
 </script>
-
-<style lang="scss">
-
-</style>
