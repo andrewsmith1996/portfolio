@@ -14,11 +14,13 @@
       </p>
       <ProjectTecnologies :technologies="['react', 'node', 'sass']" />
     </div>
-    <img
-      class="w-full lg:w-2/3 px-4"
-      src="../../../assets/images/websites/dashboard-reactjs.png"
-      alt="ReactJS data dashboard project"
-    />
+    <div class="w-full lg:w-2/3 flex justify-center items-center">
+      <img
+        class="px-4"
+        src="../../../assets/images/websites/dashboard-reactjs.png"
+        alt="ReactJS data dashboard project"
+      />
+    </div>
   </div>
 </template>
 

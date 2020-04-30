@@ -14,12 +14,12 @@
             <h3 class="text-xl font-semibold mb-2 font-ubuntu">{{ title }}</h3>
             <p class="text-sm mb-2 font-open-sans">{{ description }}</p>
           </div>
-          <div class="flex justify-center">
+          <div class="flex justify-center items-center">
             <img
               v-if="image"
               class="w-24"
               :src="require(`@/assets/images/projects/${this.image}`)"
-              alt="MTA Exam"
+              :alt="title"
             />
           </div>
         </div>
