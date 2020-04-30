@@ -1,15 +1,15 @@
 <template>
   <section>
     <div class="flex flex-col justify-center items-center">
-      <ProjectShowcaseHeader class="max-w-full w-full md:max-w-withPadding-xl px-4" />
-      <Gluco class="mb-20 mt-8 max-w-full w-full md:max-w-withPadding" />
-      <Memories  class="my-20 md:max-w-withPadding" />
-      <Hoptical  class="my-20 md:max-w-withPadding" />
-      <ImageIdentifier class="my-20 md:max-w-withPadding" />
-      <DataDashboard  class="my-20 md:max-w-withPadding" />
-      <BloodSugarAppMagik  class="my-20 md:max-w-withPadding" />
-      <GeolocationWeatherApp  class="my-20 md:max-w-withPadding" />
-      <HackbustersGame class="my-20 md:max-w-withPadding" />  
+      <ProjectShowcaseHeader class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl" />
+      <Gluco class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl" />
+      <Memories class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl" />
+      <Hoptical class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl" />
+      <ImageIdentifier class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl" />
+      <DataDashboard  class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl" />
+      <BloodSugarAppMagik class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl" />
+      <GeolocationWeatherApp class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl" />
+      <HackbustersGame class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl" />  
     </div>
   </section>
 </template>

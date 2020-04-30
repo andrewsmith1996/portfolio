@@ -1,8 +1,7 @@
 <template>
   <section>
-    <SkillsHeader class="flex max-w-full w-full md:max-w-screen-xl" />
-    <div class="flex">
-      <div class="w-full md:w-1/2">
+    <div class="flex flex-col lg:flex-row">
+      <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
         <h2 class="text-3xl font-medium mb-4 text-center">Frontend</h2>
         <div class="flex flex-wrap justify-center">
           <Skill skill="Vue.js" image="vue.png" />
@@ -19,7 +18,7 @@
           <Skill skill="Gridsome" image="gridsome.png" />
         </div>
       </div>
-      <div class="w-full md:w-1/2">
+      <div class="w-full lg:w-1/2">
         <h2 class="text-3xl font-medium mb-4 text-center">Backend</h2>
         <div class="flex flex-wrap justify-center">
           <Skill skill="Node.js" image="node.png" />
@@ -42,7 +41,6 @@
 
 <script lang="ts">
 import { Component, Vue, Prop, Mixins } from "vue-property-decorator";
-import SkillsHeader from "./skills/SkillsHeader.vue";
 import Skill from '@/components/skills/Skill.vue';
 @Component({
   components: {

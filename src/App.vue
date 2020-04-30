@@ -2,12 +2,12 @@
   <div id="app" class="font-ubuntu antialiased text-white tracking-wider">
   <Header />
   <div class="gradient-wrapper flex flex-col justify-center items-center">
-      <AboutPanel class="my-12 w-full max-w-full md:max-w-withPadding" />
-      <Skills class="my-12 w-full max-w-full md:max-w-screen-xl"/>
-      <ProjectShowcase class="my-8"/>
-      <Education class="my-8"/>
-      <Projects class="my-8"/>
-      <Contact class="p-4 my-8 w-full max-w-full md:max-w-screen-xl"/> 
+      <AboutPanel class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl px-4" />
+      <Skills class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl px-4"/>
+      <ProjectShowcase />
+      <Education class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl px-4"/>
+      <Projects class="mb-20"/>
+      <Contact class="max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl px-4"/> 
       </div>
   <Footer />
 </div>

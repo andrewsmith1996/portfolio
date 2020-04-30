@@ -1,6 +1,6 @@
 <template>
-   <div class="flex flex-col md:flex-row">
-   <div class="flex flex-col w-full md:w-1/3 px-4">
+   <div class="flex flex-col lg:flex-row">
+   <div class="flex flex-col w-full lg:w-1/3">
       <ProjectTitle title="Hoptical" githubLink="https://github.com/andrewsmith1996/hoptical-android-app" />
         <Technologies technologies="Android, Java, Firebase" />
             <p class="font-open-sans text-sm mb-6">Craft Beer tracker Android application showcasing a range of advanced Android concepts such as:</p>
@@ -18,10 +18,10 @@
             </ul> 
             <ProjectTecnologies class="mb-6" :technologies="['android', 'firebase', 'java']" />
         </div>
-       <div class="flex w-full md:w-3/4 flex-col md:flex-row justify-center px-4 items-center">
-            <img src="../../../assets/images/apps/hoptical-one.png" class="w-full md:w-1/3 px-1 mb-8 sm:mb-0" alt="Hoptical Craft Beer Tracking app built in Android" />
-            <img src="../../../assets/images/apps/hoptical-three.png" class="w-full md:w-1/3 px-1 mb-8 sm:mb-0" alt="Hoptical Craft Beer Tracking app built in Android" />
-            <img src="../../../assets/images/apps/hoptical-two.png" class="w-full md:w-1/3 px-1 mb-8 sm:mb-0" alt="Hoptical Craft Beer Tracking app built in Android" />
+       <div class="flex w-full lg:w-3/4 flex-col md:flex-row justify-center items-center">
+            <img src="../../../assets/images/apps/hoptical-one.png" class="w-full md:w-1/3 px-4 mb-8 sm:mb-0" alt="Hoptical Craft Beer Tracking app built in Android" />
+          <img src="../../../assets/images/apps/hoptical-three.png" class="w-full md:w-1/3 px-4 mb-8 sm:mb-0" alt="Hoptical Craft Beer Tracking app built in Android" />
+            <img src="../../../assets/images/apps/hoptical-two.png" class="w-full md:w-1/3 px-4 mb-8 sm:mb-0" alt="Hoptical Craft Beer Tracking app built in Android" />
         </div>
     </div>
 </template>

@@ -3,8 +3,8 @@
 
 
 <template>
-<div class="flex flex-col md:flex-row">
-    <div class="flex flex-col w-full md:w-1/3 px-4">
+<div class="flex flex-col lg:flex-row">
+    <div class="flex flex-col w-full lg:w-1/3">
       <ProjectTitle title="Image Identifier" githubLink="https://github.com/andrewsmith1996/Image-Recogition-React-Native" />
         <Technologies technologies="React Native" />
         <p class="font-open-sans text-sm mb-6">A React Native app that uses AI and a number of React Native components to identify what's in an image taken by a user.
@@ -15,10 +15,10 @@
         <ProjectTecnologies class="mb-6" :technologies="['react', 'react-native']" />
     </div>
 
-    <div class="flex flex-col md:flex-row w-full md:w-3/4 justify-center px-4 items-center">
-        <img src="../../../assets/images/apps/image-recognition-react-native-1.png" class="w-full md:w-1/3 px-2 mb-8 sm:mb-0" alt="React Native image recognition app" />
-        <img src="../../../assets/images/apps/image-recognition-react-native-2.png" class="w-full md:w-1/3 px-2 mb-8 sm:mb-0" alt="React Native image recognition app" />
-        <img src="../../../assets/images/apps/image-recognition-react-native-3.png" class="w-full md:w-1/3 px-2 mb-8 sm:mb-0" alt="React Native image recognition app" />
+    <div class="flex flex-col md:flex-row w-full lg:w-3/4 justify-center items-center">
+        <img src="../../../assets/images/apps/image-recognition-react-native-1.png" class="w-full md:w-1/3 px-4 mb-8 sm:mb-0" alt="React Native image recognition app" />
+        <img src="../../../assets/images/apps/image-recognition-react-native-2.png" class="w-full md:w-1/3 px-4 mb-8 sm:mb-0" alt="React Native image recognition app" />
+        <img src="../../../assets/images/apps/image-recognition-react-native-3.png" class="w-full md:w-1/3 px-4 mb-8 sm:mb-0" alt="React Native image recognition app" />
     </div>
   </div>
 </template>

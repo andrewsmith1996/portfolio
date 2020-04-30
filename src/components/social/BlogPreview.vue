@@ -69,10 +69,10 @@ export default class BlogPreview extends Vue {
       1900: {
         visibleSlides: 3
       },
-      1000: {
+      1280: {
         visibleSlides: 2
       },
-      800: {
+      1024: {
         visibleSlides: 1
       }
     }
