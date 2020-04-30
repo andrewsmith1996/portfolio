@@ -1,10 +1,10 @@
 
 
 <template>
-  <div class="education__modules">
-    <h3 class="education__modules-title"><strong>{{ title }}</strong></h3>
-    <ul class="education__modules-list">
-      <li class="education__modules-item" v-for="(module, index) in modules" :key="index">{{ module.title }}
+  <div>
+    <h2 class="text-center text-2xl text-main-blue mb-1"><strong>{{ title }}</strong></h2>
+    <ul>
+      <li class="text-center mb-1 text-sm lg:text-base" v-for="(module, index) in modules" :key="index">{{ module.title }}
         <span>({{module.result}})</span>
       </li>
     </ul>

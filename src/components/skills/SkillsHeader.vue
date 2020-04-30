@@ -1,10 +1,8 @@
 
 <template>
-  <div class="row">
-    <div class="col-md-12">
-      <h2>Skills</h2>
-      <p class="subtitle">What do I know?</p>
-    </div>
+  <div class="mb-8">
+    <h2 class="text-3xl font-medium">Skills</h2>
+    <p class="text-sm font-open-sans text-gray-400">What do I know?</p>
   </div>
 </template>
 

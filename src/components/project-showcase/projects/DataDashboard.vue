@@ -1,29 +1,25 @@
 <template>
-   <div class="project__simple">
-    <div class="project__simple-content project__simple-content--half">
-        <div class="project__simple-header">
-        <h3 class="project__title">Personal Data Dashboard</h3>
-          <a href="https://github.com/andrewsmith1996/data-dashboard" target="_blank">
-            <img src="../../../assets/images/icons/github.png">
-            </a>
-        </div>
-        <h6 class="project__technologies">React, Flexbox, SASS</h6>
-        <p class="project__description">A ReactJS project that utilises a variety of third-party APIs to display and organise useful personal information including unique iCal calendar integration, WunderList integration and both news and weather APIs.<br><br>This web app also features on-demand refreshing of information, CSS animation and a layout built using Flexbox.</p>
-        <ProjectTecnologies :technologies="['react', 'node', 'sass']" />
+    <div class="flex flex-col lg:flex-row">
+    <div class="flex flex-col w-full lg:w-1/3 mb-8 lg:mb-0">
+      <ProjectTitle title="Personal Data Dashboard" githubLink="https://github.com/andrewsmith1996/data-dashboard" />
+        <Technologies technologies="React, Flexbox, SASS" />
+        <p class="font-open-sans text-sm mb-6">A ReactJS project that utilises a variety of third-party APIs to display and organise useful personal information including unique iCal calendar integration, WunderList integration and both news and weather APIs.<br><br>This web app also features on-demand refreshing of information, CSS animation and a layout built using Flexbox.</p>
+        <ProjectTecnologies  :technologies="['react', 'node', 'sass']" />
     </div>
-    <div class="project__simple-screenshots project__simple-content--half">
-        <img src="../../../assets/images/websites/dashboard-reactjs.png" class="project__simple-screenshot project__simple-screenshot--full" alt="ReactJS data dashboard project" />
-    </div>
+      <img class="w-full lg:w-2/3 px-4" src="../../../assets/images/websites/dashboard-reactjs.png" alt="ReactJS data dashboard project" />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue, Prop, Mixins } from "vue-property-decorator";
 import ProjectTecnologies from "../../technologies/ProjectTechnologies.vue";
-
+import Technologies from '../elements/TechnologyList.vue';
+import ProjectTitle from '../elements/Title.vue';
 @Component({
   components: {
-    ProjectTecnologies
+    ProjectTecnologies,
+    Technologies,
+    ProjectTitle
   }
 })
 export default class Gluco extends Vue {

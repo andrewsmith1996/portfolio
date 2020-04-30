@@ -1,141 +1,23 @@
 <template>
-   <section class="projects">
-      <div class="projects__inner-container">
-        <div class="project-showcase__header">
-            <h2>Projects &amp; Extra Curricular</h2>
-            <p class="subtitle">What have I done?</p>
-        </div>
-        <div class="projects__cards">
-            <div class="projects__card projects__card--three">
-                <div class="projects__card-content">
-                    <h3 class="projects__card-title">Industrial Placement year</h3>
-                    <p class="projects__card-description">Year in industry creating websites and online software at <a href="https://cursor.co.uk" target="_blank">Cursor</a> for customers and clients across a broad range of industries. Helpdesk technical support, designing front-end wireframes and visuals and general software development processes. Involved in client meetings, working closely with professional clients and participating in R&amp;D projects.</p>
-                </div>
-                <span class="projects__card-date">2017 - 2018</span>
-            </div>
-
-            <div class="projects__card projects__card--three">
-                <div class="projects__card-content">
-                    <h3 class="projects__card-title">Founder &amp; President of the UoL Diabetes Group</h3>
-                    <p class="projects__card-description">Founded &amp; President of the University of Lincoln Diabetes Group. Maintaining responsibilities, organisation, leadership skills, delegating roles and communication. Organised events, fundraisers and liased with resarchers regarding research projects.</p>
-                </div>
-                <img :immediate="true" class="projects__card-image" width="130" src="../assets/images/projects/diabetes-group.png" alt="MTA Exam" />
-                <span class="projects__card-date">2015 - 2017</span>
-            </div>
-
-            <div class="projects__card projects__card--three">
-                <div class="projects__card-content">
-                    <h3 class="projects__card-title">Google Cloud Platform Certification</h3>
-                    <p class="projects__card-description">Achieved the official Google Cloud Platform Fundamentals: Core Infrastructure Certficiation. <br>Click <a href="https://www.coursera.org/account/accomplishments/verify/YLLAVXGRLRBG">here</a> to view certification.</p>
-                </div>
-                <img :immediate="true" class="projects__card-image" width="300" src="../assets/images/projects/google_cloud.png" alt="MTA Exam" />
-                <span class="projects__card-date">2019</span>
-            </div>
-
-            <div class="projects__card with-img">
-                <div class="projects__card-content">
-                    <h3 class="projects__card-title">Microsoft Technology Associate</h3>
-                    <p class="projects__card-description">Officially certified as a Microsoft Technology Associate in HTML5 Application Development Fundamentals.</p>
-                </div>
-                <img class="projects__card-image" width="150" src="../assets/images/projects/mta-logo.png" alt="MTA Exam" />
-                <span class="projects__card-date">2019</span>
-            </div>
-
-            <div class="projects__card projects__card">
-                <div class="projects__card-content">
-                    <h3 class="projects__card-title">Computer Science Course Representative</h3>
-                    <p class="projects__card-description">Course Representative for Computer Science at University. Ability to communicate well, plan well and manage time successfully.</p>
-                </div>
-                <img :immediate="true" class="projects__card-image" width="200" src="../assets/images/projects/uni-lincoln.png" alt="MTA Exam" />
-                <span class="projects__card-date">2015 - 2016</span>
-            </div>
-            
-            <div class="projects__card">
-                <div class="projects__card-content">
-                    <h3 class="projects__card-title">ICT Service Desk Technician</h3>
-                    <p class="projects__card-description">Solving problems with computers and mobile devices across multiple operating systems and give out technical advice.</p>
-                </div>
-                <img :immediate="true" class="projects__card-image" width="200" src="../assets/images/projects/uni-lincoln.png" alt="MTA Exam" />
-                <span class="projects__card-date">2015 - 2017, 2018 - 2019</span>
-            </div>
-        
-            <div class="projects__card">
-                <div class="projects__card-content">
-                    <h3 class="projects__card-title">School of Computer Science Student Ambassador</h3>
-                    <p class="projects__card-description">Supporting events such as Open Days, Applicant Open Days, School liaison events and other odd jobs around the School.</p>
-                </div>
-                <img :immediate="true" class="projects__card-image" width="200" src="../assets/images/projects/uni-lincoln.png" alt="MTA Exam" />
-                <span class="projects__card-date">2015 - 2017</span>
-            </div>
-    
-            <div class="projects__card">
-                <div class="projects__card-content">
-                    <h3 class="projects__card-title">The Lincoln Award</h3>
-                    <p class="projects__card-description">I have completed the Lincoln Award; the University of Lincoln’s standalone Employability award.</p>
-                </div>
-                <img :immediate="true" class="projects__card-image" width="200" src="../assets/images/projects/lincoln_award.png" alt="MTA Exam" />
-                <span class="projects__card-date">2016</span>
-            </div>
-
-            <div class="projects__card">
-                <div class="projects__card-content">
-                    <h3 class="projects__card-title">IT Tutor (Volunteer)</h3>
-                    <p class="projects__card-description">Volunteer at the Long Eaton 50+ Forum to teach 50+ year olds a better understanding in using their computing and mobile devices.</p>
-                </div>
-                <img :immediate="true" class="projects__card-image" width="130" src="../assets/images/projects/50-plus-forum.png" alt="MTA Exam" />
-                <span class="projects__card-date">2015 - present</span>
-            </div>
-        
-            <div class="projects__card">
-                <div class="projects__card-content">
-                    <h3 class="projects__card-title">School of Computer Science Interview Panel</h3>
-                    <p class="projects__card-description">Questioned candidates in the recruitment of new lecturers and researchers. Communicated feedback to the Head of School.</p>
-                </div>
-                <img :immediate="true" class="projects__card-image" width="200" src="../assets/images/projects/uni-lincoln.png" alt="MTA Exam" />
-                <span class="projects__card-date">2017</span>
-            </div>
-        
-            <div class="projects__card">
-                <div class="projects__card-content">
-                    <h3 class="projects__card-title">AOL London Work Placement </h3>
-                    <p class="projects__card-description">Placement in AOL's specialised web and software department to gain valuable advice and experience from experts within a multinational company. Shadowed teams of developers and designers mainly working with JavaScript technologies. Also given opportunity to attend meetings on advertising based solutions.</p>
-                </div>
-                <img :immediate="true" class="projects__card-image" width="150" src="../assets/images/projects/aol.png" alt="MTA Exam" />
-                <span class="projects__card-date">2014</span>
-            </div>
-        
-            <div class="projects__card">
-                <div class="projects__card-content">
-                    <h3 class="projects__card-title">NHS Practice IT Consultant</h3>
-                    <p class="projects__card-description">Implemented media solutions for a professional inspection and solving general IT problems within the practice.</p>
-                </div>
-                <img :immediate="true" class="projects__card-image" width="200" src="../assets/images/projects/nhs.png" alt="MTA Exam" />
-                <span class="projects__card-date">2015</span>
-            </div>
-        
-            <div class="projects__card">
-                <div class="projects__card-content">
-                    <h3 class="projects__card-title">BCS work placement</h3>
-                    <p class="projects__card-description">Placement in local computer repair shop. Allowed me to understand working professionally and give good customer service.</p>
-                </div>
-                <span class="projects__card-date">2014</span>
-            </div>
-        
-            <div class="projects__card">
-                <div class="projects__card-content">
-                    <h3 class="projects__card-title">Chairman of Social Events</h3>
-                    <p class="projects__card-description">Vice Chairman of Social Events in the Sixth Form Council, eventually becoming the Chairman.</p>
-                </div>
-                <span class="projects__card-date">2013</span>
-            </div>
-        
-            <div class="projects__card">
-                <div class="projects__card-content">
-                    <h3 class="projects__card-title">2:1 in Brilliant Club scheme</h3>
-                    <p class="projects__card-description">2:1 in the Brilliant Club programme where I attended tutorials and completed a University assignment whilst at Sixth Form.</p>
-                </div>
-                <span class="projects__card-date">2013</span>
-            </div>
+   <section>
+       <div class="flex flex-col justify-center items-center">
+        <ProjectHeader class="max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl px-6 mb-6" />
+        <div class="flex flex-col md:flex-row flex-wrap max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl px-4">
+            <ProjectCard size="large" title="Industrial Placement year" image="diabetes-group.png" description="Year in industry creating websites and online software at Cursor for customers and clients across a broad range of industries. Helpdesk technical support, designing front-end wireframes and visuals and general software development processes. Involved in client meetings, working closely with professional clients and participating in R&amp;D projects" dates="2017 - 2018"/>
+            <ProjectCard size="large" title="Founder &amp; President of the UoL Diabetes Group" description="Founded &amp; President of the University of Lincoln Diabetes Group. Maintaining responsibilities, organisation, leadership skills, delegating roles and communication. Organised events, fundraisers and liased with resarchers regarding research projects." dates="2015 - 2017"/>
+            <ProjectCard size="large" title="Microsoft Technology Associate" image="mta-logo.png" description="Officially certified as a Microsoft Technology Associate in HTML5 Application Development Fundamentals." dates="2019"/>
+            <ProjectCard size="medium" title="Google Cloud Platform Certification" image="google_cloud.png" description="Achieved the official Google Cloud Platform Fundamentals: Core Infrastructure Certficiation." dates="2019"/>
+            <ProjectCard size="medium" title="Computer Science Course Representative" image="uni-lincoln.png" description="Course Representative for Computer Science at University. Ability to communicate well, plan well and manage time successfully." dates="2015 - 2016"/>
+            <ProjectCard size="medium" title="ICT Service Desk Technician" image="uni-lincoln.png" description="Solving problems with computers and mobile devices across multiple operating systems and give out technical advice." dates="2015 - 2017, 2018 - 2019"/>
+            <ProjectCard size="medium" title="School of Computer Science Student Ambassador" image="uni-lincoln.png" description="Supporting events such as Open Days, Applicant Open Days, School liaison events and other odd jobs around the School." dates="2015 - 2017"/>
+            <ProjectCard size="small" title="The Lincoln Award" image="lincoln_award.png" description="I have completed the Lincoln Award; the University of Lincoln’s standalone Employability award." dates="2016"/>
+            <ProjectCard size="medium" title="IT Tutor (Volunteer)" image="50-plus-forum.png" description="Volunteer at the Long Eaton 50+ Forum to teach 50+ year olds a better understanding in using their computing and mobile devices." dates="2015 - present"/>
+            <ProjectCard size="large" title="AOL London Work Placement" image="aol.png" description="Placement in AOL's specialised web and software department to gain valuable advice and experience from experts within a multinational company. Shadowed teams of developers and designers mainly working with JavaScript technologies. Also given opportunity to attend meetings on advertising based solutions." dates="2014"/>
+            <ProjectCard size="medium" title="School of Computer Science Interview Panel" image="uni-lincoln.png" description="Questioned candidates in the recruitment of new lecturers and researchers. Communicated feedback to the Head of School" dates="2017"/>
+            <ProjectCard size="medium" title="NHS Practice IT Consultant" image="nhs.png" description="Implemented media solutions for a professional inspection and solving general IT problems within the practice." dates="2015"/>
+            <ProjectCard size="medium" title="BCS work placement" image="" description="Placement in local computer repair shop. Allowed me to understand working professionally and give good customer service." dates="2014"/>
+            <ProjectCard size="medium" title="Chairman of Social Events" image="" description="Vice Chairman of Social Events in the Sixth Form Council, eventually becoming the Chairman." dates="2013"/>
+            <ProjectCard size="medium" title="2:1 in Brilliant Club scheme" image="" description="2:1 in the Brilliant Club programme where I attended tutorials and completed a University assignment whilst at Sixth Form." dates="2013"/>
         </div>
         </div>
   </section>
@@ -143,8 +25,14 @@
 
 <script lang="ts">
 import { Component, Vue, Prop, Mixins } from "vue-property-decorator";
-
-@Component
+import ProjectCard from '@/components/project-card/ProjectCard.vue';
+import ProjectHeader from '@/components/project-card/ProjectHeader.vue';
+@Component({
+    components: {
+        ProjectCard,
+        ProjectHeader
+    }
+})
 export default class Projects extends Vue {
 
 }

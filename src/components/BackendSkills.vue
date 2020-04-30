@@ -1,32 +1,24 @@
 <template>
   <div>
-    <div class="skills__container">
-      <div class="skills__content-container">
-        <div class="skills__skills-content">
-          <h3 class="skills__list-title">Back-end development</h3>
-          <ul class="skills__list">
-              <li><span></span>NodeJS</li>
-              <li><span></span>Express</li>
-              <li><span></span>Socket.io</li>
-              <li><span></span>MongoDB</li>
-              <li><span></span>Google Firebase, Google Cloud</li>
-              <li><span></span>Travis CI/CD</li>
-              <li><span></span>PHP, SQL, mySQL</li>
-              <li><span></span>C++</li>
-              <li><span></span>C#</li>
-              <li><span></span>Python</li>
-              <li><span></span>CraftCMS, PHPmyAdmin</li>
-          </ul>
-        </div>
-        <div class="skills__skills-example">
-            <SteveNashFashion />
-        </div>
+    <div class="flex flex-col md:flex-row mb-16">
+      <div class="w-full md:w-1/2">
+        <h2 class="text-xl font-medium">Back-end development</h2>
+        <ul class="mb-6 text-sm font-open-sans list-disc">
+          <li class="mb-1"><span></span>NodeJS</li>
+          <li class="mb-1"><span></span>Express</li>
+          <li class="mb-1"><span></span>Socket.io</li>
+          <li class="mb-1"><span></span>MongoDB</li>
+          <li class="mb-1"><span></span>Google Firebase, Google Cloud</li>
+          <li class="mb-1"><span></span>Travis CI/CD</li>
+          <li class="mb-1"><span></span>PHP, SQL, mySQL</li>
+          <li class="mb-1"><span></span>C++</li>
+          <li class="mb-1"><span></span>C#</li>
+          <li class="mb-1"><span></span>Python</li>
+          <li class="mb-1"><span></span>CraftCMS, PHPmyAdmin</li>
+        </ul>
       </div>
-    </div>
-    <div class="screens">
-      <div class="screens__row">
-        <SimonsGroup />
-        <FosterAC />
+      <div class="w-full md:w-1/2">
+          <SteveNashFashion />
       </div>
     </div>
   </div>

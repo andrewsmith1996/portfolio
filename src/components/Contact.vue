@@ -1,15 +1,13 @@
 
 
 <template>
-  <section class="contact">
-    <div class="contact__inner-container">
-      <h2 class="contact__title">Say hello</h2> 
-      <p class="contact__subtitle">Get in touch</p>
-      <div class="contact__container">
-        <SocialLinks class="contact__social" />
-      </div>
-       <BlogPreview />
+  <section>
+    <div class="flex flex-col w-full max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl px-4 mb-8">
+      <h2 class="text-3xl font-medium">Say hello</h2> 
+      <p class="text-sm mb-4">Get in touch</p>
+      <SocialLinks class="mb-4"/>
     </div>
+     <BlogPreview class="max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl px-4"/>
   </section>
 </template>
 

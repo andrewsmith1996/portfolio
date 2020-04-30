@@ -1,14 +1,14 @@
 <template>
-  <div id="app">
+  <div id="app" class="font-ubuntu antialiased text-white tracking-wider">
   <Header />
-  <div class="gradient-wrapper">
-    <AboutPanel />
-    <ProjectShowcase />
-    <Skills />
-    <Education />
-    <Projects />
-    <Contact /> 
-  </div>
+  <div class="gradient-wrapper flex flex-col justify-center items-center">
+      <AboutPanel class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl px-4" />
+      <Skills class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl px-4"/>
+      <ProjectShowcase />
+      <Education class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl px-4"/>
+      <Projects class="mb-20"/>
+      <Contact class="max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl px-4"/> 
+      </div>
   <Footer />
 </div>
 </template>

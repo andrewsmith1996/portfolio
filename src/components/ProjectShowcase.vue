@@ -1,24 +1,15 @@
 <template>
-  <section class="projects-panel">
-    <div class="projects-panel__inner-container">
-      <ProjectShowcaseHeader  />
-      <Gluco  />
-      <Memories  />
-      <Hoptical  />
-      <ImageIdentifier />
-      <DataDashboard  />
-      <BloodSugarAppMagik  />
-      <GeolocationWeatherApp  />
-      <HackbustersGame />  
-      
-      <div class="projects__screens" >
-        <div class="projects__screen">
-          <InconnectCables />
-        </div>
-        <div class="projects__screen">
-          <EspressoDesign />
-        </div>
-      </div>
+  <section>
+    <div class="flex flex-col justify-center items-center">
+      <ProjectShowcaseHeader class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl" />
+      <Gluco class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl" />
+      <Memories class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl" />
+      <Hoptical class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl" />
+      <ImageIdentifier class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl" />
+      <DataDashboard  class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl" />
+      <BloodSugarAppMagik class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl" />
+      <GeolocationWeatherApp class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl" />
+      <HackbustersGame class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl" />  
     </div>
   </section>
 </template>
