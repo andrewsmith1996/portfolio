@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h2 class="text-center text-2xl text-main-blue mb-1"><strong>Modules</strong></h2>
+    <h2 class="text-center text-2xl text-main-blue mb-1">
+      <strong>{{ title }}</strong>
+    </h2>
     <ul>
       <li
         class="text-center mb-1 text-sm lg:text-base"
