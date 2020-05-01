@@ -11,7 +11,6 @@
     </div>
     <vueper-slides
       v-if="blogPosts"
-      :bullets="false"
       slide-multiple
       :gap="2"
       :dragging-distance="200"
@@ -20,12 +19,12 @@
       <vueper-slide
         v-for="(post, index) in blogPosts"
         :key="index"
-        class="bg-main-blue rounded-card blog-preview"
+        class="rounded-card blog-preview"
         :link="post.url"
       >
         <template v-slot:content>
           <article class="h-full">
-            <div class="relative z-10 h-full flex flex-col p-6">
+            <div class="relative z-10 h-full flex flex-col p-6 blog-preview-article">
               <h4 class="text-xl mb-1">
                 <strong><a :href="post.url" v-html="post.title"></a></strong>
               </h4>
@@ -67,7 +66,6 @@ export default class BlogPreview extends Vue {
    * @returns {void}
    */
   async mounted(): Promise<void> {
-    const characterLimit: number = 300;
     try {
       const response = await axios.get(
         'https://public-api.wordpress.com/rest/v1.1/sites/117679029/posts/'
@@ -77,10 +75,7 @@ export default class BlogPreview extends Vue {
           return {
             title: post.title,
             url: post.URL,
-            intro:
-              post.excerpt.length > characterLimit
-                ? `${post.excerpt.slice(0, characterLimit)}...`
-                : post.excerpt,
+            intro: this.getExcert(post.excerpt, post.title.length),
             postDate: moment(new Date(post.date)).format('MMMM Do YYYY, h:mma')
           } as BlogPreviewInterface;
         }
@@ -88,6 +83,15 @@ export default class BlogPreview extends Vue {
     } catch (e) {
       console.log(e);
     }
+  }
+
+  getExcert(excert: string, titleLength: number): string {
+    const characterLimit: number = 300;
+    if (excert.length > characterLimit) {
+      if (titleLength > 0 && titleLength <= 90) return `${excert.substring(0, 320)}...`;
+      if (titleLength > 90 && titleLength < 120) return `${excert.substring(0, 240)}...`;
+      else return `${excert.substring(0, 220)}...`;
+    } else return excert;
   }
 
   /**
@@ -98,16 +102,24 @@ export default class BlogPreview extends Vue {
   get breakpoints() {
     return {
       2100: {
-        visibleSlides: 3
+        visibleSlides: 3,
+        arrows: true,
+        bullets: true
       },
       1900: {
-        visibleSlides: 3
+        visibleSlides: 3,
+        arrows: true,
+        bullets: true
       },
       1280: {
-        visibleSlides: 2
+        visibleSlides: 2,
+        arrows: false,
+        bullets: true
       },
       1024: {
-        visibleSlides: 1
+        visibleSlides: 1,
+        arrows: false,
+        bullets: true
       }
     };
   }

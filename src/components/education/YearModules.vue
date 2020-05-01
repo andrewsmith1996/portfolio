@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="text-center text-2xl text-main-blue mb-1">
+    <h2 class="text-center text-2xl text-white mb-1">
       <strong>{{ title }}</strong>
     </h2>
     <ul>

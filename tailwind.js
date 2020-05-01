@@ -26,6 +26,12 @@ module.exports = {
         card: '18px'
       }
     },
+    inset: {
+      '0': 0,
+      auto: 'auto',
+      'small': '50px',
+      'hide': '-50px'
+    },
     variants: {
       margin: ['responsive', 'last', 'first'],
       padding: ['responsive', 'odd', 'even']

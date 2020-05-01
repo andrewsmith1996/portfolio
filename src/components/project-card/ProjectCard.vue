@@ -7,7 +7,7 @@
       'md:w-1/2 lg:w-1/6': isSmall
     }"
   >
-    <div class="project-card h-full flex-col bg-fixed bg-main-blue rounded-card flex flex-col p-4">
+    <div class="project-card h-full flex-col bg-fixed rounded-card flex flex-col p-4">
       <div class="flex flex-col h-full justify-between">
         <div class="relative z-10 flex flex-col h-full mb-4 justify-between">
           <div class="mb-4">
