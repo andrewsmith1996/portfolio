@@ -2,7 +2,11 @@
   <footer class="bg-light-blue py-8">
     <p class="text-center font-bold">Copyright &copy; {{ currentYear }}</p>
     <p class="text-center text-sm">
-      <a href="https://andrewsmithdeveloper.com">Andrew Smith - Developer</a>
+      <a
+        href="https://andrewsmithdeveloper.com"
+        class="text-gray-400 text-sm font-medium mb-4 -mt-1"
+        >Andrew Smith - Developer</a
+      >
     </p>
   </footer>
 </template>

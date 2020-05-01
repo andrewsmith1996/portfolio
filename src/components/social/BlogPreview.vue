@@ -5,8 +5,8 @@
       <a
         href="https://thisdeveloperslife.wordpress.com/"
         target="_blank"
-        class="text-sm font-open-sans text-gray-400"
-        >thisdeveloperslife.wordpress.com</a
+        class="block text-gray-400 text-sm font-medium mb-4 -mt-1"
+        >thisdeveloperslife.wosrdpress.com</a
       >
     </div>
     <vueper-slides

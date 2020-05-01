@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2 class="text-3xl font-medium">My work</h2>
-    <p class="text-sm font-open-sans text-gray-400">
+    <p class="text-gray-400 text-sm font-medium mb-4 -mt-1">
       Take a look at some of my recent personal projects.
     </p>
   </div>
