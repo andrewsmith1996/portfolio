@@ -10,7 +10,7 @@
         Diary and journaling application for capturing and collecting social experiences. Share,
         scan and collect friends’ memories with QR codes to build memory diaries together.
       </p>
-      <ul class="mb-6 text-sm font-open-sans list-disc">
+      <ul class="mb-6 text-sm font-open-sans list-disc list-inside">
         <li>Google Firebase Authentication, Realtime Database & Storage</li>
         <li>Device Contacts List &amp; Camera Integration</li>
         <li>Geolocation &amp; Interactive Map with Custom Markers</li>

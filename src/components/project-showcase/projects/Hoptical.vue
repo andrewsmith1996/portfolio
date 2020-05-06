@@ -10,7 +10,7 @@
         Craft Beer tracker Android application showcasing a range of advanced Android concepts such
         as:
       </p>
-      <ul class="mb-6 text-sm font-open-sans list-disc">
+      <ul class="mb-6 text-sm font-open-sans list-disc list-inside">
         <li>Google Sign-in</li>
         <li>Google Firebase Realtime Database</li>
         <li>Encrypted local SQL storage</li>
