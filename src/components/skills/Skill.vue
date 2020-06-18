@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-center items-center m-2">
+  <div class="flex flex-col justify-center items-center m-2 ">
     <img
       class="w-20 h-20 p-1 rounded-full border-4 mb-2"
       :src="require(`@/assets/images/technologies/${this.image}`)"

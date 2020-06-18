@@ -6,14 +6,11 @@
       >
         <img
           class="w-16 h-16 mb-2"
-          src="../assets/images/icons/web.png"
+          src="../assets/images/icons/code.png"
           alt="Web Development Icon"
         />
-        <h3 class="text-2xl text-white text-center font-medium mb-2">Web Development</h3>
-        <p class="font-open-sans text-sm text-center">
-          Full Stack web development skills from building complex back-ends, to building front-end
-          UI for web applications, to writing automated unit tests and end-to-end tests for cloud
-          services.
+        <h3 class="text-2xl text-white text-center font-medium mb-2">Frontend Development</h3>
+        <p class="font-open-sans text-sm text-center">Building frontend UI for web applications primarily in Vue.js or React.js, with TypeScript, Tailwind and automated end-to-end tests with Cypress.
         </p>
       </div>
 
@@ -22,14 +19,12 @@
       >
         <img
           class="w-16 h-16 mb-2"
-          src="../assets/images/icons/improvement.png"
+          src="../assets/images/icons/data.png"
           alt="Mobile Development Icon"
         />
-        <h3 class="text-2xl text-white text-center font-medium mb-2">Software Processes</h3>
+        <h3 class="text-2xl text-white text-center font-medium mb-2">Backend Development</h3>
         <p class="font-open-sans text-sm text-center">
-          Driving of continuous improvement of software processes through software architecture
-          design, automated testing, QA processes, writing documentation, code reviews and
-          mentoring.
+          Building APIs and cloud services primarily in Node.js, TypeScript, Express and GraphQL with automated unit tests with Jest.
         </p>
       </div>
 
@@ -38,13 +33,13 @@
       >
         <img
           class="w-16 h-16 mb-2"
-          src="../assets/images/icons/comp-sci.png"
+          src="../assets/images/icons/graduation.png"
           alt="Computer Science Icon"
         />
         <h3 class="text-2xl text-white text-center font-medium mb-2">Computer Science</h3>
         <p class="font-open-sans text-sm text-center">
-          First Class Honours degree in BSc Computer Science (86%) with a year's placement in
-          industry, winning both the 'Best Graduate' and 'Best Project' awards for exceptional
+          First Class Honours in BSc Computer Science with a year in
+          industry, winning the 'Best Graduate' and 'Best Project' awards for exceptional
           performance.
         </p>
       </div>

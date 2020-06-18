@@ -8,7 +8,7 @@
     </p>
     <p class="mb-4 font-open-sans text-sm">
       Building front-end UI and complex back-ends for web applications, APIs and web services using
-      a variety of full-stack technologies, primarily Node.js, Vue.js, TypeScript and Jest.
+      a variety of full-stack technologies, primarily Node.js, Vue.js and TypeScript.
     </p>
     <p class="mb-8 font-open-sans text-sm">
       Actively involved in continuous improvement of software development processes through
