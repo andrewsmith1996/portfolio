@@ -31,6 +31,7 @@ import Education from './components/Education.vue';
 import Projects from './components/Projects.vue';
 import Skills from './components/Skills.vue';
 import ProjectShowcase from './components/ProjectShowcase.vue';
+import CurvedDivider from './components/Divider.vue';
 
 @Component({
   components: {
@@ -41,7 +42,8 @@ import ProjectShowcase from './components/ProjectShowcase.vue';
     Education,
     Projects,
     Skills,
-    ProjectShowcase
+    ProjectShowcase,
+    CurvedDivider
   }
 })
 export default class App extends Vue {}
