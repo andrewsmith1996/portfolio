@@ -12,7 +12,7 @@
         <div class="relative z-10 flex flex-col h-full mb-4 justify-between">
           <div class="mb-4">
             <h3 class="text-xl font-semibold mb-2 font-ubuntu">{{ title }}</h3>
-            <p class="text-sm mb-2 font-open-sans">{{ description }}</p>
+            <p class="text-sm mb-2 font-open-sans font-semibold">{{ description }}</p>
           </div>
           <div class="flex justify-center items-center">
             <img

@@ -6,11 +6,11 @@
         githubLink="https://github.com/andrewsmith1996/memories-ionic-app"
       />
       <Technologies technologies="Ionic 4, Angular, Firebase" />
-      <p class="font-open-sans text-sm mb-6">
+      <p class="font-open-sans font-semibold text-sm mb-6">
         Diary and journaling application for capturing and collecting social experiences. Share,
         scan and collect friends’ memories with QR codes to build memory diaries together.
       </p>
-      <ul class="mb-6 text-sm font-open-sans list-disc list-inside">
+      <ul class="mb-6 text-sm font-open-sans font-semibold list-disc list-inside">
         <li>Google Firebase Authentication, Realtime Database & Storage</li>
         <li>Device Contacts List &amp; Camera Integration</li>
         <li>Geolocation &amp; Interactive Map with Custom Markers</li>

@@ -6,7 +6,7 @@
         githubLink="https://github.com/andrewsmith1996/reactjs-live-data-dashboard"
       />
       <Technologies technologies="React, Flexbox, SASS" />
-      <p class="font-open-sans text-sm mb-6">
+      <p class="font-open-sans font-semibold text-sm mb-6">
         A ReactJS project that utilises a variety of third-party APIs to display and organise useful
         personal information including unique iCal calendar integration, WunderList integration and
         both news and weather APIs.<br /><br />This web app also features on-demand refreshing of

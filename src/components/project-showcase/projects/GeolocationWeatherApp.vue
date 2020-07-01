@@ -6,7 +6,7 @@
         githubLink="https://github.com/andrewsmith1996/react-native-geolocation-weather-app"
       />
       <Technologies technologies="React Native" />
-      <p class="font-open-sans text-sm mb-6">
+      <p class="font-open-sans font-semibold text-sm mb-6">
         A simple React Native app that uses the Geolocation functionality of a mobile phone and a
         WeatherAPI to retrieve a user's current location and return a 5 day weather forecast for
         that location. <br /><br />I published a full guide on how to build this app

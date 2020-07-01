@@ -7,7 +7,7 @@
           githubLink="https://github.com/andrewsmith1996/gluco-api-node"
         />
         <Technologies technologies="Ionic 3, Node.js, MongoDB, Express, Angular" />
-        <p class="font-open-sans text-sm mb-6">
+        <p class="font-open-sans font-semibold text-sm mb-6">
           Final Year Project for BSc (Hons) Computer Science entitled
           <em
             >"Using Artificial Intelligence and Machine Learning to improve the Glycaemic Control of

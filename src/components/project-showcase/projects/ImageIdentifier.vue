@@ -6,7 +6,7 @@
         githubLink="https://github.com/andrewsmith1996/react-native-ai-image-recognition-app"
       />
       <Technologies technologies="React Native" />
-      <p class="font-open-sans text-sm mb-6">
+      <p class="font-open-sans font-semibold text-sm mb-6">
         A React Native app that uses AI and a number of React Native components to identify what's
         in an image taken by a user. <br /><br />I published a full guide on how to build this app
         <a

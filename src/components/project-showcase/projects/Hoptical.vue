@@ -6,11 +6,11 @@
         githubLink="https://github.com/andrewsmith1996/hoptical-android-app"
       />
       <Technologies technologies="Android, Java, Firebase" />
-      <p class="font-open-sans text-sm mb-6">
+      <p class="font-open-sans font-semibold text-sm mb-6">
         Craft Beer tracker Android application showcasing a range of advanced Android concepts such
         as:
       </p>
-      <ul class="mb-6 text-sm font-open-sans list-disc list-inside">
+      <ul class="mb-6 text-sm font-open-sans font-semibold list-disc list-inside">
         <li>Google Sign-in</li>
         <li>Google Firebase Realtime Database</li>
         <li>Encrypted local SQL storage</li>

@@ -6,7 +6,7 @@
         githubLink="https://github.com/andrewsmith1996/hackbusters-game-lincoln-hack-2018"
       />
       <Technologies technologies="Socket.IO, Node.js, Express" />
-      <p class="font-open-sans text-sm mb-6">
+      <p class="font-open-sans font-semibold text-sm mb-6">
         My entry for <a href="https://2018.lincolnhack.org/" target="_blank">Lincoln Hack</a> - a
         Dambusters, RAF &amp; Lincoln themed game using web sockets to make it playable across
         multiple phones positioned next to each other in a row. <br /><br />This game involved

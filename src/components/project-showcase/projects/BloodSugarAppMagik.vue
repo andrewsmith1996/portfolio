@@ -6,7 +6,7 @@
         githubLink="https://github.com/andrewsmith1996/blood-sugar-app-magik"
       />
       <Technologies technologies="Ionic 3, Angular, TypeScript, SASS" />
-      <p class="font-open-sans text-sm mb-6">
+      <p class="font-open-sans font-semibold text-sm mb-6">
         Built at <a href="https://www.hack24.co.uk/" target="_blank">Hack24</a> this cross platform
         mobile app tracks and analyses the blood sugar results of Diabetics, giving graph
         illustrations and a practical representation of blood sugar results over time.
