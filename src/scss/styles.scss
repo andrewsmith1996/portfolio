@@ -52,8 +52,8 @@ $the-andrew-blue: #004e92;
 
 .gradient-wrapper {
 	background: #1A2980;
-	background: -webkit-linear-gradient(to bottom, #1A2980, #26D0CE);
-	background: linear-gradient(to bottom, #1A2980, #26D0CE);
+	background: -webkit-linear-gradient(to bottom, #4e54c8, #26D0CE);
+	background: linear-gradient(to bottom, #4e54c8, #26D0CE);
 }
 
 .header {
@@ -80,7 +80,7 @@ $the-andrew-blue: #004e92;
 		content: '';
 		width: 100%;
 		height: 100%;
-		background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #1A2980 100%);
+		background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #4e54c8 100%);
 		position: absolute;
 		bottom: -1px;
 		left: 0;

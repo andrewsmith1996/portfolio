@@ -12,7 +12,8 @@ module.exports = {
         'open-sans': ['Open Sans', 'sans-serif']
       },
       fontSize: {
-
+        '3.5xl': '1.675rem',
+        '7xl': '4.5rem'
       },
       maxWidth: {
         withPadding: '1312px',

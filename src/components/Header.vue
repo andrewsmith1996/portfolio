@@ -35,11 +35,6 @@ export default class Header extends Vue {}
   @return $randomNum;
 }
 
-@function get-vw($target) { 
-  $vw-context: (1000*.01) * 1px;
-  @return ($target/$vw-context) * 1vw;
-}
-
 $keys: 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten';
 
 .bg-shapes {
