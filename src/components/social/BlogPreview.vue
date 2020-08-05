@@ -11,7 +11,6 @@
     </div>
     <vueper-slides
       v-if="blogPosts"
-      :bullets="false"
       slide-multiple
       :gap="2"
       :dragging-distance="200"
@@ -98,16 +97,24 @@ export default class BlogPreview extends Vue {
   get breakpoints() {
     return {
       2100: {
-        visibleSlides: 3
+        visibleSlides: 3,
+        bullets: false,
+        arrows: true,
       },
       1900: {
-        visibleSlides: 3
+        visibleSlides: 3,
+        bullets: false,
+        arrows: true,
       },
-      1280: {
-        visibleSlides: 2
+      1350: {
+        visibleSlides: 2,
+        bullets: true,
+        arrows: false,
       },
       1024: {
-        visibleSlides: 1
+        visibleSlides: 1,
+        bullets: true,
+        arrows: false,
       }
     };
   }
