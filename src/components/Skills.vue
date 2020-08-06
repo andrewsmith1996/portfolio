@@ -5,15 +5,15 @@
         <h2 class="text-3xl font-medium mb-4 text-center">Frontend Skills</h2>
         <div class="flex flex-wrap justify-center">
           <Skill skill="Vue.js" image="vue.png" />
-          <Skill skill="TypeScript" image="typescript.png" />
           <Skill skill="React.js" image="react.png" />
           <Skill skill="Angular" image="angular.png" />
           <Skill skill="Ionic" image="ionic.png" />
           <Skill skill="Tailwind" image="tailwind.png" />
+        </div>
+        <div class="flex flex-wrap justify-center">
           <Skill skill="Cypress" image="cypress.png" />
           <Skill skill="React Native" image="react.png" />
           <Skill skill="SASS/SCSS" image="sass-new.png" />
-          <Skill skill="Android" image="android.png" />
           <Skill skill="Bootstrap" image="bootstrap.png" />
           <Skill skill="JQuery" image="jquery.png" />
         </div>
@@ -26,13 +26,13 @@
           <Skill skill="Express" image="express.png" />
           <Skill skill="Jest" image="jest.png" />
           <Skill skill="GraphQL" image="graphql.png" />
-          <Skill skill="Apollo" image="apollo.png" />
-          <Skill skill="Python" image="python.png" />
+          </div>
+        <div class="flex flex-wrap justify-center">
+            <Skill skill="Apollo" image="apollo.png" />
+            <Skill skill="Python" image="python.png" />
           <Skill skill="Firebase" image="firebase.png" />
           <Skill skill="MongoDB" image="mongodb.png" />
           <Skill skill="PHP" image="php.png" />
-          <Skill skill="Craft CMS" image="craftcms.png" />
-          <Skill skill="mySQL" image="mysql.png" />
         </div>
       </div>
     </div>

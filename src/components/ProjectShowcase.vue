@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="flex flex-col justify-center items-center px-4">
+    <div class="flex flex-col justify-center items-center px-8">
       <ProjectShowcaseHeader
         class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl"
       />

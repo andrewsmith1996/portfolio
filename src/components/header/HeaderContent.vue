@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1 class="text-7xl font-medium">Andrew Smith</h1>
-    <h2 class="text-3.5xl -mt-6 mb-4">Full Stack Web Developer</h2>
+    <h1 class="text-6xl font-medium">Andrew Smith</h1>
+    <h2 class="text-2xl -mt-6 mb-4">Full Stack Developer</h2>
     <p class="mb-4 font-open-sans font-semibold text-sm">
       A double award winning First Class BSc (Hons) Computer Science graduate and agency experienced
       developer specialising in Full Stack Web Development.

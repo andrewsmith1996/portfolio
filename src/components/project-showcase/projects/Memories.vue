@@ -11,12 +11,12 @@
         scan and collect friends’ memories with QR codes to build memory diaries together.
       </p>
       <ul class="mb-6 text-sm font-open-sans font-semibold list-disc list-inside">
-        <li>Google Firebase Authentication, Realtime Database & Storage</li>
-        <li>Device Contacts List &amp; Camera Integration</li>
-        <li>Geolocation &amp; Interactive Map with Custom Markers</li>
+        <li>Firebase Authentication, Realtime DB, Storage</li>
+        <li>Device Contacts List, Camera Integration</li>
+        <li>Geolocation, Interactive Map w/ Custom Markers</li>
         <li>Google Maps API, Google Nearby Places API</li>
-        <li>Geofencing &amp; Local Notifications</li>
-        <li>QR Code Generation &amp; QR Code Scanner</li>
+        <li>Geofencing, Local Notifications</li>
+        <li>QR Code Generation, QR Code Scanner</li>
         <li>Social Media Sharing</li>
       </ul>
       <ProjectTecnologies
