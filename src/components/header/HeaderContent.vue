@@ -1,19 +1,25 @@
 <template>
   <div>
     <h1 class="text-6xl font-medium">Andrew Smith</h1>
-    <h2 class="text-2xl -mt-6 mb-4">Full Stack Developer</h2>
+    <h2 class="text-2xl -mt-5 mb-4">Full Stack Developer</h2>
     <p class="mb-4 font-open-sans font-semibold text-sm">
-      A double award winning First Class BSc (Hons) Computer Science graduate and agency experienced
-      developer specialising in Full Stack Web Development.
+      A double award winning First Class BSc (Hons) Computer Science graduate and software developer
+      at
+      <a
+        href="https://www.experianplc.com/about-us/our-business-activities/consumer-services/"
+        target="_blank"
+        class="underline"
+        >Experian</a
+      >.
     </p>
     <p class="mb-4 font-open-sans font-semibold text-sm">
       Building front-end UI and complex back-ends for web applications, APIs and web services using
-      a variety of full-stack technologies, primarily Node.js, Vue.js and TypeScript.
+      a variety of full-stack technologies, primarily Node.js, React.js and TypeScript.
     </p>
     <p class="mb-8 font-open-sans font-semibold text-sm">
       Actively involved in continuous improvement of software development processes through
-      automated testing and QA solutions, code reviews, documentation and software architecture and
-      database schema design.
+      automated testing and QA solutions, code reviews, documentation and software architecture
+      design
     </p>
     <SocialLinks />
   </div>

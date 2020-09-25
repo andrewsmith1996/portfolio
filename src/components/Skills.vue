@@ -1,7 +1,7 @@
 <template>
   <section>
-    <div class="flex flex-col lg:flex-row">
-      <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
+    <div class="flex flex-col justify-center items-center">
+      <div class="w-full mb-8">
         <h2 class="text-3xl font-medium mb-4 text-center">Frontend Skills</h2>
         <div class="flex flex-wrap justify-center">
           <Skill skill="Vue.js" image="vue.png" />
@@ -18,7 +18,7 @@
           <Skill skill="JQuery" image="jquery.png" />
         </div>
       </div>
-      <div class="w-full lg:w-1/2">
+      <div class="w-full">
         <h2 class="text-3xl font-medium mb-4 text-center">Backend Skills</h2>
         <div class="flex flex-wrap justify-center">
           <Skill skill="Node.js" image="node.png" />
@@ -26,10 +26,10 @@
           <Skill skill="Express" image="express.png" />
           <Skill skill="Jest" image="jest.png" />
           <Skill skill="GraphQL" image="graphql.png" />
-          </div>
+        </div>
         <div class="flex flex-wrap justify-center">
-            <Skill skill="Apollo" image="apollo.png" />
-            <Skill skill="Python" image="python.png" />
+          <Skill skill="Apollo" image="apollo.png" />
+          <Skill skill="Python" image="python.png" />
           <Skill skill="Firebase" image="firebase.png" />
           <Skill skill="MongoDB" image="mongodb.png" />
           <Skill skill="PHP" image="php.png" />

@@ -10,7 +10,9 @@
           alt="Web Development Icon"
         />
         <h3 class="text-2xl text-white text-center font-medium mb-2">Frontend Development</h3>
-        <p class="font-open-sans font-semibold text-sm text-center">Building frontend UI for web applications primarily in Vue.js or React.js, with TypeScript, Tailwind and automated end-to-end tests with Cypress.
+        <p class="font-open-sans font-semibold text-sm text-center">
+          Building frontend UI for web applications primarily in Vue.js or React.js, with
+          TypeScript, Tailwind and automated end-to-end tests with Cypress.
         </p>
       </div>
 
@@ -24,7 +26,8 @@
         />
         <h3 class="text-2xl text-white text-center font-medium mb-2">Backend Development</h3>
         <p class="font-open-sans font-semibold text-sm text-center">
-          Building APIs and cloud services primarily in Node.js, TypeScript, Express and GraphQL with automated unit tests with Jest.
+          Building APIs and cloud services primarily in Node.js, TypeScript, Express and GraphQL
+          with automated unit tests with Jest.
         </p>
       </div>
 
@@ -38,9 +41,8 @@
         />
         <h3 class="text-2xl text-white text-center font-medium mb-2">Computer Science</h3>
         <p class="font-open-sans font-semibold text-sm text-center">
-          First Class Honours in BSc Computer Science with a year in
-          industry, winning the 'Best Graduate' and 'Best Project' awards for exceptional
-          performance.
+          First Class Honours in BSc Computer Science with year in industry, winning the 'Best
+          Graduate' and 'Best Project' awards for exceptional performance.
         </p>
       </div>
     </div>

@@ -16,6 +16,7 @@
     "moment": "^2.24.0",
     "sass": "^1.23.7",
     "sass-loader": "^8.0.0",
+    "timeline-vuejs": "^1.1.7",
     "ts-loader": "^6.2.1",
     "v-media-query": "^1.0.4",
     "vue": "^2.6.10",

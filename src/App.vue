@@ -3,14 +3,17 @@
     <Header />
     <div class="gradient-wrapper flex flex-col justify-center items-center">
       <AboutPanel
-        class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl px-4"
+        class="mb-24 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl px-4"
       />
-      <Skills
-        class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl px-4"
-      />
+      <div
+        class="mb-24 flex flex-col md:flex-row items-center justify-around max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl px-4"
+      >
+        <Timeline class="w-full md:w-1/2" />
+        <Skills class="w-full md:w-1/2" />
+      </div>
       <ProjectShowcase />
       <Education
-        class="mb-20 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl px-4"
+        class="mb-24 max-w-full w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl px-4"
       />
       <Projects class="mb-20" />
       <Contact
@@ -32,6 +35,7 @@ import Projects from './components/Projects.vue';
 import Skills from './components/Skills.vue';
 import ProjectShowcase from './components/ProjectShowcase.vue';
 import CurvedDivider from './components/Divider.vue';
+import Timeline from './components/Timeline.vue';
 
 @Component({
   components: {
@@ -43,7 +47,8 @@ import CurvedDivider from './components/Divider.vue';
     Projects,
     Skills,
     ProjectShowcase,
-    CurvedDivider
+    CurvedDivider,
+    Timeline
   }
 })
 export default class App extends Vue {}
