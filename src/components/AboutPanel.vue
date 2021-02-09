@@ -11,7 +11,7 @@
         />
         <h3 class="text-2xl text-white text-center font-medium mb-2">Frontend Development</h3>
         <p class="font-open-sans font-semibold text-sm text-center">
-          Building frontend UI for web applications primarily in Vue.js or React.js, with
+          Building frontend UI for web applications primarily in React.js or Vue.js, with
           TypeScript, Tailwind and automated end-to-end tests with Cypress.
         </p>
       </div>
@@ -26,8 +26,7 @@
         />
         <h3 class="text-2xl text-white text-center font-medium mb-2">Backend Development</h3>
         <p class="font-open-sans font-semibold text-sm text-center">
-          Building APIs and cloud services primarily in Node.js, TypeScript, Express and GraphQL
-          with automated unit tests with Jest.
+          Building APIs and cloud services primarily in Node.js, TypeScript, GraphQL and Jest or with C#, .NET and AWS.
         </p>
       </div>
 
