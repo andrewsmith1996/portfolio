@@ -9,17 +9,17 @@
         href="https://www.experianplc.com/about-us/our-business-activities/consumer-services/"
         target="_blank"
         class="underline"
-        >Experian</a
+        >Experian Consumer Services</a
       >.
     </p>
     <p class="mb-4 font-open-sans font-semibold text-sm">
       Building front-end UI and complex back-ends for web applications, APIs and web services using
-      a variety of full-stack technologies, primarily Node.js, React.js and TypeScript.
+      a variety of full-stack technologies, primarily React.js, Node.js, TypeScript, .NET/C# and AWS.
     </p>
     <p class="mb-8 font-open-sans font-semibold text-sm">
       Actively involved in continuous improvement of software development processes through
       automated testing and QA solutions, code reviews, documentation and software architecture
-      design
+      design.
     </p>
     <SocialLinks />
   </div>
